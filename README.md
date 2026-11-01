@@ -2,9 +2,17 @@
 
 I build software products and Python/SQL data workflows. I am an M.S. Data Science candidate at the University of St. Thomas, graduating in May 2027 with a 4.0/4.0 GPA.
 
-My independent product project is SetFlow, a private SwiftUI/SwiftData strength-training app in development. Development versions have been used by my roommates. Most application code was generated with AI assistance; I guide product direction, define workflows and review the implementation. The public case study explains behavior, engineering decisions and verification limits without publishing the application source.
-
 My individual data projects include an academic AWS/PySpark fragrance workflow, tested Python/Pandas NBA analysis and a separate Oracle relational model. At Cognizant, I completed Java/Spring/Angular training and contributed to team demo applications. At Stibo Systems, I worked in client technical support and issue investigation.
+
+## SetFlow: independently directed product work
+
+SetFlow is my private, in-development native iPhone strength-training project. I guide the product direction and user workflows, using coding agents for substantial implementation, debugging, tests and documentation. Most application code was generated with AI assistance.
+
+The public case study follows three concrete decisions: preserving the meaning of entered values, keeping interrupted-session actions aligned with saved records, and making missing training information visible. Its dated synthetic Simulator captures and evidence notes show what was observed and where verification remains limited.
+
+- [Start with the 90-second overview](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/docs/recruiter_quick_start.md)
+- [Read the product and engineering decisions](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/PRODUCT_DECISIONS.md)
+- [Inspect the evidence and limitations](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/EVIDENCE_AND_LIMITATIONS.md)
 
 ## Featured projects
 
