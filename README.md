@@ -14,6 +14,10 @@ The public case study follows three concrete decisions: preserving the meaning o
 - [Read the product and engineering decisions](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/PRODUCT_DECISIONS.md)
 - [Inspect the evidence and limitations](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/EVIDENCE_AND_LIMITATIONS.md)
 
+The separate interactive website review presents native app screens in 3D product scenes, searchable feature explanations and original recordings. I directed its presentation and review through an AI-assisted build process. It is a review copy, with simulated registration and no beta admission.
+
+- [Secondary website review preview (temporary; registration demo only)](https://setflow-review-nov03.vanshverma0401.chatgpt.site)
+
 ## Featured projects
 
 | Project | What it demonstrates | Start here |
