@@ -2,7 +2,9 @@
 
 ## Flagship project: SetFlow
 
-### [Explore the SetFlow website review →](https://setflow-review-nov03.vanshverma0401.chatgpt.site)
+### [Watch and explore SetFlow →](https://setflow-review-nov03.vanshverma0401.chatgpt.site)
+
+[Watch the 1:34 product walkthrough →](https://setflow-review-nov03.vanshverma0401.chatgpt.site/watch.html#momentum)
 
 [Product case study and evidence](https://github.com/vanshverma0401-wq/setflow-product-case-study) · [90-second overview](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/docs/recruiter_quick_start.md)
 
@@ -22,7 +24,7 @@ The public case study follows three concrete decisions: preserving the meaning o
 - [Read the product and engineering decisions](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/PRODUCT_DECISIONS.md)
 - [Inspect the evidence and limitations](https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/EVIDENCE_AND_LIMITATIONS.md)
 
-The separate interactive website review presents native app screens in 3D product scenes, searchable feature explanations and original recordings. I directed its presentation and review through an AI-assisted build process. It is a review copy, with simulated registration and no beta admission.
+The separate interactive website review includes a 94-second walkthrough of 15 features: seven recorded scenes and eight interface stills from separate synthetic examples captured November 1, 2026. Full-phone context alternates with focused explanations. It also presents searchable feature explanations and retained original workout recordings in authored 3D scenes. I directed its presentation and review through an AI-assisted build process. The iPhone app remains in development before beta; website registration is a noncollecting preview with no beta admission.
 
 ## Featured projects
 
@@ -47,4 +49,3 @@ The separate interactive website review presents native app screens in 3D produc
 I am seeking 2027 early-career software/product and data engineering/analytics opportunities, with targeted iOS interests. Twin Cities first; open to U.S. relocation.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/vansh-verma-403377333/).
-
