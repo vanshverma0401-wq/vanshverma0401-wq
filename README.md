@@ -17,10 +17,24 @@ U.S. relocation.
 
 ## Explore the work
 
-| Data engineering and analytical storytelling | Business intelligence and dashboard design |
-| --- | --- |
-| [![Fragrance accord trends from the AWS and PySpark case study](https://raw.githubusercontent.com/vanshverma0401-wq/fragrance-data-lake-pyspark/main/assets/accord_trends.png)](https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark) | [![Original collaborative Tableau salary dashboard using a historical 2020–2022 snapshot](https://raw.githubusercontent.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/main/assets/original-dashboard.png)](https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard) |
-| AWS/PySpark workflow with aggregate fragrance analyses. | Collaborative Tableau project; historical data and original saved dashboard. |
+<table>
+  <tr>
+    <th width="50%">Data engineering and analytical storytelling</th>
+    <th width="50%">Business intelligence and dashboard design</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark"><img src="https://raw.githubusercontent.com/vanshverma0401-wq/fragrance-data-lake-pyspark/main/assets/accord_trends.png" alt="Fragrance accord trends from the AWS and PySpark case study" width="400"></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard"><img src="https://raw.githubusercontent.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/main/assets/original-dashboard.png" alt="Original collaborative Tableau salary dashboard using a historical 2020–2022 snapshot" width="400"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>AWS/PySpark workflow with aggregate fragrance analyses.</td>
+    <td>Collaborative Tableau project; historical data and original saved dashboard.</td>
+  </tr>
+</table>
 
 Each repository links its source, visual evidence and reproduction or verification
 limits. Individual projects and collaborative coursework are identified below.
