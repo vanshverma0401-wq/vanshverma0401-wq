@@ -1,0 +1,154 @@
+{
+  "recorded_date_local": "2026-11-11",
+  "timezone": "America/Chicago",
+  "scope": "Already-public project visual assets copied byte-for-byte for the author's personal portfolio; no image edits or raw source records.",
+  "assets": [
+    {
+      "path": "assets/projects/fragrance.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/blob/main/assets/brand_rating_support.png",
+      "sha256": "07356007fe5722fae08e53e7897323bd08cf6d3bf7d61f8a20e60f6e01b93549",
+      "bytes": 176089,
+      "caption": "Brand rating and support in the separate Parfumo-derived fragrance analysis.",
+      "context": "Individual academic data-engineering project. The chart uses the 30,046-record cleaned Parfumo branch, not the 23.9M-row Amazon-review branch. Rebuilt from saved aggregate results.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Analysis/chart: Vansh Verma. Underlying fragrance data retains its source rights; see repository DATA_AND_USAGE.md.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/zillow.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/assets/figures/home-value-trends.png",
+      "sha256": "e12df50ada0ead6bd005c73735f5c8699599137c26f14ed82c814d6fbd9bcaa2",
+      "bytes": 182043,
+      "caption": "Historical home-value trends for selected metropolitan groups.",
+      "context": "Original saved chart from Question 1 of the collaborative 2025 final project. ZHVI typical-home-value indices; not current investment advice or the separate November 2026 Ridge benchmark.",
+      "contribution_label": "Collaborative",
+      "credited_authors": [
+        "Jake Holley",
+        "Miranda Dahl",
+        "Vansh Verma"
+      ],
+      "attribution": "Data Provided by Zillow Group. Collaborative analysis: Jake Holley, Miranda Dahl and Vansh Verma.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/salary.svg",
+      "source_public_url": "https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/blob/main/assets/review/salary-overview.svg",
+      "sha256": "87271544827b92062bbe388e36340a5e0197027a04c9ffa3b5687b5dd4e525f6",
+      "bytes": 4737,
+      "caption": "Readable review of a historical 637-record salary snapshot.",
+      "context": "November 2026 Python review export of public raw CSV aggregates. Not a new Tableau export. Anonymous 2020–2022 convenience sample; repetitions retained; descriptive group means. Original project is collaborative.",
+      "contribution_label": "Collaborative source project; separate review export",
+      "credited_authors": [
+        "Denny Hoang",
+        "Vansh Verma"
+      ],
+      "attribution": "Original academic project: Denny Hoang and Vansh Verma. Source: historical ai-jobs.net observations via the attributed Plotly mirror; see repository DATA_AND_USAGE.md.",
+      "transformation": "none; byte-identical copy of the existing public asset",
+      "svg_review": {
+        "xml_parsed": true,
+        "active_elements_absent": true,
+        "event_attributes_absent": true,
+        "external_references_absent": true
+      }
+    },
+    {
+      "path": "assets/projects/basketball.svg",
+      "source_public_url": "https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard/blob/main/assets/review/season-scoring-overview.svg",
+      "sha256": "2127d172c888ea5c0e87b3dff1d46ab3ac403cbe7098276ec010a512bcdc237f",
+      "bytes": 8266,
+      "caption": "Anthony Edwards season and scoring review across 381 recorded games.",
+      "context": "November 2026 Python review export from checked aggregates, not a new Power BI export. NBA seasons 2020–21 through 2024–25, descriptive win/loss means and selected peers; no causal or predictive claim.",
+      "contribution_label": "Collaborative source project; separate review export",
+      "credited_authors": [
+        "Vansh Verma",
+        "Denny Hoang"
+      ],
+      "attribution": "Collaborative academic project: Vansh Verma and Denny Hoang. Statistical sources: Basketball-Reference / Sports Reference LLC, with NBA.com for team context.",
+      "transformation": "none; byte-identical copy of the existing public asset",
+      "svg_review": {
+        "xml_parsed": true,
+        "active_elements_absent": true,
+        "event_attributes_absent": true,
+        "external_references_absent": true
+      }
+    },
+    {
+      "path": "assets/projects/nba.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/nba-bench-impact-analysis/blob/main/assets/figures/three_point_leaders.png",
+      "sha256": "808f4796e05a27dabc67e4b7784bc5b3b58932868c753d5aa5c8eae628be6a07",
+      "bytes": 117730,
+      "caption": "Qualified bench-majority three-point leaders in the 2023–24 regular season.",
+      "context": "Individual Python/Pandas analysis. Requires at least 40 games, more bench appearances than starts and at least 4.0 three-point attempts per game. Findings apply to this historical defined cohort.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Analysis/chart: Vansh Verma. Statistical source: Basketball-Reference / Sports Reference LLC.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/setflow-active.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/screenshots/02-active-workout.png",
+      "sha256": "f9623d508b91466405c71c5efa711f6ba7ef1dad36150bef7b54c498697bb008",
+      "bytes": 2164862,
+      "caption": "SetFlow active set logging in a synthetic iOS Simulator scenario.",
+      "context": "Native Simulator capture dated October 31, 2026. Private app in development before beta. Independent product direction and review with substantial AI-assisted implementation; most app code was generated with coding agents. Not physical-device, release-readiness or adoption evidence.",
+      "contribution_label": "Independent product direction; substantial AI-assisted implementation",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Copyright 2026 Vansh Verma. Public source-free SetFlow case-study screenshot; synthetic data. See source repository CASE_STUDY_USAGE.md and ASSET_ATTRIBUTION.md.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/setflow-history.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/screenshots/04-workout-history.png",
+      "sha256": "43e6b39fe480ad659b8530cb1fa3e02cd87655c996d6452d2f9ec19935210ce1",
+      "bytes": 821482,
+      "caption": "SetFlow History retaining three synthetic sets after relaunch.",
+      "context": "Native Simulator capture dated October 31, 2026, using the synthetic three-set fixture. Private pre-beta app; substantial AI-assisted implementation. Not physical-device behavior, broad correctness or release-readiness evidence.",
+      "contribution_label": "Independent product direction; substantial AI-assisted implementation",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Copyright 2026 Vansh Verma. Public source-free SetFlow case-study screenshot; synthetic data. See source repository CASE_STUDY_USAGE.md and ASSET_ATTRIBUTION.md.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/wardrobe.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence/blob/main/assets/wardrobe-intelligence-summary.png",
+      "sha256": "cdf1a82cd801216159c4273957c49223412fc8ade4c65f1fb861dcff8ba9063a",
+      "bytes": 91008,
+      "caption": "Fictional fragrance collection: rotation, coverage and cost per logged wear.",
+      "context": "Individual local-first Python CLI MVP. Visual derives from the same public fictional CSV inputs and tested analytical functions as the CLI. Similarity is an explainable heuristic, not a trained ML model. Not a real consumer outcome.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Original implementation and synthetic demonstration data/chart: Vansh Verma.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/healthcare.png",
+      "source_public_url": "https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/assets/billing/v4-01.png",
+      "sha256": "981f947b7c61db3040ba4d7ade8ed0d90a12bef49302bd062ac9b0aea803bd6f",
+      "bytes": 67648,
+      "caption": "Original saved baseline and model comparison from synthetic-healthcare coursework.",
+      "context": "Historical V4 saved figure from the collaborative academic project. Not the separate November 2026 group-disjoint billing benchmark. Synthetic educational data; no clinical utility, patient-outcome or deployment claim. Read source results and limitations before comparing metrics.",
+      "contribution_label": "Collaborative",
+      "credited_authors": [
+        "Hinsoukpo Dagan",
+        "Drew Fleming",
+        "Kathleen Hinderscheid",
+        "Benjamin Philbin",
+        "Dymend Teklab",
+        "Vansh Verma"
+      ],
+      "attribution": "Collaborative academic project by the named team. Synthetic Healthcare Dataset by Prasad Patil, listed as CC0; see source repository DATA_AND_USAGE.md.",
+      "transformation": "none; byte-identical copy of the existing public asset"
+    }
+  ]
+}

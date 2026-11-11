@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101416">
+  <meta name="description" content="Vansh Verma’s portfolio: Python and SQL data engineering, applied machine learning, business intelligence and thoughtful software products. M.S. Data Science, May 2027.">
+  <meta property="og:title" content="Vansh Verma — Data, Code & Product">
+  <meta property="og:description" content="From messy data to useful systems. Explore the projects, visual results and decisions behind the work.">
+  <meta property="og:type" content="website">
+  <title>Vansh Verma — Data, Code & Product</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/sora.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="identity" href="#" aria-label="Vansh Verma, home"><span class="monogram" aria-hidden="true">vv<span>↗</span></span><span>Vansh Verma<span class="identity-sub">DATA · CODE · PRODUCT</span></span></a>
+    <nav aria-label="Main navigation"><a href="#work"><span>01</span> Work</a><a href="#toolkit"><span>02</span> Toolkit</a><a href="#about"><span>03</span> About</a></nav>
+    <a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> MINNEAPOLIS, MN · CLASS OF 2027</p>
+        <h1 id="hero-title">Make data<br>useful.<br><span>Then build<br class="desktop-break"> on it.</span></h1>
+        <p class="hero-intro">I’m Vansh — a data science graduate student turning messy inputs into clear analysis, dependable data workflows and thoughtful software.</p>
+        <div class="hero-actions"><a class="button button-mint" href="#work">Explore the work <span aria-hidden="true">↘</span></a><a class="text-link" href="https://github.com/vanshverma0401-wq">GitHub <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-note">Python & SQL at the center.<br>Curiosity across the rest of the stack.</p>
+      </div>
+
+      <div class="hero-art" aria-label="A visual introduction to the fragrance data project">
+        <div class="orbit-label" aria-hidden="true">INPUT → STRUCTURE → INSIGHT</div>
+        <div class="depth-stage">
+          <div class="depth-grid" aria-hidden="true"></div>
+          <div class="data-window window-back" aria-hidden="true">
+            <div class="window-bar"><span class="window-dots">● ● ●</span><span>PIPELINE / 001</span><span>PYSPARK</span></div>
+            <div class="code-lines"><span class="code-comment"># give heterogeneous data a useful shape</span><br><span class="code-blue">reviews</span> = spark.read.json(source)<br><span class="code-blue">curated</span> = reviews.join(products)<br><span class="code-blue">curated</span>.write.parquet(destination)<br><span class="code-comment"># validate, explain, document</span></div>
+          </div>
+          <div class="data-window window-pipeline">
+            <div class="window-bar"><span class="window-dots">● ● ●</span><span>FRAGRANCE DATA LAKE</span><span>01—03</span></div>
+            <div class="pipeline-nodes"><div><span class="node-number">01</span><strong>23.9M</strong><small>reviews parsed</small></div><span class="node-arrow" aria-hidden="true">+</span><div><span class="node-number">02</span><strong>57.4K</strong><small>products from metadata</small></div><span class="node-arrow" aria-hidden="true">→</span><div><span class="node-number">03</span><strong>1.25M</strong><small>joined review rows</small></div></div>
+            <div class="pipeline-footer"><span class="tiny-dot" aria-hidden="true"></span> INDIVIDUAL ACADEMIC PROJECT <span>AWS / SPARK / SQL</span></div>
+          </div>
+          <div class="data-window window-result">
+            <div class="result-heading"><span class="mini-label">FROM DATA TO A QUESTION</span><span class="result-symbol" aria-hidden="true">↗</span><h2>What makes a<br>fragrance stand out?</h2></div>
+            <img src="assets/projects/fragrance.png" alt="Fragrance brand weighted ratings and rating support from the separate Parfumo-derived analysis" width="1000" height="600" fetchpriority="high">
+            <p>Visual result · separate 30,046-record Parfumo branch</p>
+          </div>
+          <div class="floating-index" aria-hidden="true"><span>THE PORTFOLIO</span><strong>V / V</strong><span>2026 → 2027</span></div>
+        </div>
+      </div>
+      <div class="hero-baseline"><span>BUILD WITH INTENT. VERIFY THE RESULT.</span><a href="#work" aria-label="Scroll to selected work">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Proof, in<br><span class="muted-word">the details.</span></h2></div><p>A collection of pipelines, experiments and products.<br>Open a project to see the result — and what it actually demonstrates.</p></div>
+      <div class="work-toolbar"><div class="filters" role="group" aria-label="Filter projects" hidden><button type="button" data-filter="all" aria-pressed="true">All work <span>09</span></button><button type="button" data-filter="data" aria-pressed="false">Data engineering</button><button type="button" data-filter="ml" aria-pressed="false">ML & analytics</button><button type="button" data-filter="bi" aria-pressed="false">Business intelligence</button><button type="button" data-filter="product" aria-pressed="false">Product & software</button></div><p class="project-count" aria-live="polite" aria-atomic="true">09 PROJECTS</p></div>
+
+      <div class="project-grid" id="project-grid">
+        <article class="project-card project-featured" data-category="data" data-project="fragrance">
+          <div class="featured-copy"><div class="project-topline"><span class="project-index">01 / FEATURED</span><span class="project-kind">Individual · Academic</span></div><h3>Fragrance<br>Data Lake</h3><p class="project-description">Finding structure in millions of reviews. An AWS and PySpark workflow for ingestion, cleaning, joins and curated analytical tables.</p><div class="featured-metric"><strong>23.9M <span>→</span> 1.25M</strong><span>RAW REVIEWS → JOINED FRAGRANCE-REVIEW ROWS</span></div><ul class="tags" aria-label="Project skills"><li>PySpark</li><li>Amazon S3</li><li>Spark SQL</li><li>Data quality</li><li>Parquet</li></ul><div class="project-links"><a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark" data-open="fragrance">Inside the project <span aria-hidden="true">↗</span></a><a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/tree/main/src">Source code</a></div></div>
+          <a class="featured-image project-image" href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark" data-open="fragrance" aria-label="Explore Fragrance Data Lake and its visual results"><div class="image-caption-top"><span>ANALYTICAL OUTPUT / PARFUMO BRANCH</span><span aria-hidden="true">↗</span></div><img src="assets/projects/fragrance.png" alt="Weighted brand ratings and rating counts in the separate Parfumo analysis" loading="lazy"><p>Brand quality, with the support behind each rating.<br><span>30,046 cleaned Parfumo-derived records; separate from the Amazon pipeline.</span></p></a>
+        </article>
+
+        <article class="project-card" data-category="data" data-project="oracle">
+          <a class="project-image diagram-image" href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model" data-open="oracle" aria-label="Explore the Oracle relational model"><img src="assets/generated/oracle-schema.svg" alt="Conceptual diagram of the five-table fictional NBA demonstration schema" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">02 / DATA MODELING</span><span class="project-kind">Individual · Coursework</span></div><h3>Good questions.<br>Better relationships.</h3><p>Oracle SQL relational modeling, integrity constraints and analytical queries, with original DDL alongside a smaller fictional-data demonstration.</p><ul class="tags"><li>Oracle SQL</li><li>Relational design</li><li>Constraints</li><li>Views</li></ul><p class="evidence-note">Five-table demo · Oracle runtime verification pending</p><a class="card-link" href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model" data-open="oracle">Explore NBA relational model <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card setflow-card" data-category="product" data-project="setflow">
+          <a class="project-image phone-image" href="https://github.com/vanshverma0401-wq/setflow-product-case-study" data-open="setflow" aria-label="Explore SetFlow product case study"><div class="phone-type" aria-hidden="true">SET<br>FLOW<span>PLAN. LOG. RETURN.</span></div><img src="assets/projects/setflow-active.png" alt="Dated iOS Simulator screenshot of SetFlow active workout logging with synthetic data" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">03 / PRODUCT ENGINEERING</span><span class="project-kind">Private · In development</span></div><h3>Built around<br>the next rep.</h3><p>A native strength-training app exploring workout planning, session continuity, input correctness and local history.</p><ul class="tags"><li>SwiftUI</li><li>SwiftData</li><li>State management</li><li>Product design</li></ul><p class="evidence-note">My product direction and review · substantial AI-generated implementation</p><a class="card-link" href="https://github.com/vanshverma0401-wq/setflow-product-case-study" data-open="setflow">Explore SetFlow <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card" data-category="ml" data-project="zillow">
+          <a class="project-image" href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis" data-open="zillow" aria-label="Explore Zillow housing analysis"><img src="assets/generated/zillow-benchmark.svg" alt="New historical metro benchmark: Ridge mean absolute error 13,357 versus unchanged-value baseline 24,850" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">04 / TIME-SERIES ANALYSIS</span><span class="project-kind">Collaborative · Academic</span></div><h3>Housing signals,<br>carefully evaluated.</h3><p>Geographic and time-indexed analysis, plus a separate 50-metro benchmark with exact calendar targets and a purged chronological split.</p><ul class="tags"><li>Pandas</li><li>Feature engineering</li><li>scikit-learn</li><li>XGBoost</li></ul><p class="evidence-note">Historical revised data · Data Provided by Zillow Group</p><a class="card-link" href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis" data-open="zillow">Explore Zillow analysis <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card" data-category="ml" data-project="healthcare">
+          <a class="project-image" href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis" data-open="healthcare" aria-label="Explore the synthetic healthcare ML evaluation"><img src="assets/generated/healthcare-evaluation.svg" alt="Synthetic healthcare benchmark: 10,000 records and test ROC-AUC 0.485, showing weak predictive signal" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">05 / APPLIED MACHINE LEARNING</span><span class="project-kind">Team study · Synthetic data</span></div><h3>A useful result<br>can be a limitation.</h3><p>Billing models, preprocessing and evaluation. A separate group-disjoint benchmark makes weak signal visible instead of overstating performance.</p><ul class="tags"><li>Preprocessing pipelines</li><li>Classification</li><li>Baselines</li><li>Evaluation</li></ul><p class="evidence-note">10,000 synthetic records · test ROC-AUC 0.485 · no clinical validation</p><a class="card-link" href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis" data-open="healthcare">Explore healthcare ML <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card" data-category="bi" data-project="tableau">
+          <a class="project-image chart-image" href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard" data-open="tableau" aria-label="Explore the workforce salary dashboard"><img src="assets/projects/salary.svg" alt="Python review of 637 historical salary records, with group counts and mean salaries" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">06 / BUSINESS INTELLIGENCE</span><span class="project-kind">Collaborative · Academic</span></div><h3>The story behind<br>the salary number.</h3><p>Tableau and Tableau Prep case study: data preparation, calculated fields and KPI reporting across a historical salary snapshot.</p><ul class="tags"><li>Tableau</li><li>Tableau Prep</li><li>Calculated fields</li><li>KPI reporting</li></ul><p class="evidence-note">637 records, 2020–2022 · visual shown is a 2026 Python review export.<br><a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/blob/main/FIGURE_GALLERY.md">Original Tableau figures remain in the repository ↗</a></p><a class="card-link" href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard" data-open="tableau">Explore workforce analytics <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card" data-category="bi" data-project="powerbi">
+          <a class="project-image chart-image" href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard" data-open="powerbi" aria-label="Explore Anthony Edwards performance analysis"><img src="assets/projects/basketball.svg" alt="Season averages and separate win/loss scoring means from 381 recorded Anthony Edwards games" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">07 / SPORTS ANALYTICS</span><span class="project-kind">Collaborative · Academic</span></div><h3>Five seasons.<br>A clearer comparison.</h3><p>A Power BI case study exploring Anthony Edwards’ development, scoring in wins and losses, and selected peers.</p><ul class="tags"><li>Power BI</li><li>Power Query</li><li>Comparative analysis</li><li>Validation</li></ul><p class="evidence-note">381 recorded games · visual shown is a 2026 Python review export.<br><a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard#complete-figure-gallery">Original Power BI figures remain in the repository ↗</a></p><a class="card-link" href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard" data-open="powerbi">Explore performance analytics <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card" data-category="ml" data-project="nba">
+          <a class="project-image chart-image" href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis" data-open="nba" aria-label="Explore NBA bench impact analysis"><img src="assets/projects/nba.png" alt="Qualified bench-majority three-point shooting leaders in the 2023–24 NBA regular season" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">08 / EXPLORATORY ANALYSIS</span><span class="project-kind">Individual · Analysis</span></div><h3>Who contributes<br>off the bench?</h3><p>Player deduplication, transparent cohort definitions and reproducible shooting and rebounding leaderboards.</p><ul class="tags"><li>Python</li><li>Pandas</li><li>Matplotlib</li><li>Analytical tests</li></ul><p class="evidence-note">572 unique player records · 185-player defined cohort · 2023–24</p><a class="card-link" href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis" data-open="nba">Explore NBA analysis <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project-card" data-category="product" data-project="wardrobe">
+          <a class="project-image chart-image" href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence" data-open="wardrobe" aria-label="Explore Fragrance Wardrobe Intelligence"><img src="assets/projects/wardrobe.png" alt="Fictional fragrance wardrobe demo showing rotation, coverage and cost per logged wear" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></a>
+          <div class="card-copy"><div class="project-topline"><span class="project-index">09 / LOCAL SOFTWARE</span><span class="project-kind">Individual · Fictional demo</span></div><h3>A collection,<br>made more useful.</h3><p>A local Python CLI for wardrobe rotation, coverage, cost per logged wear and explainable heuristic similarity.</p><ul class="tags"><li>Python CLI</li><li>Input validation</li><li>Deterministic JSON</li><li>Unit tests</li></ul><p class="evidence-note">8 fictional collection items · 18 wear events · no trained recommender</p><a class="card-link" href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence" data-open="wardrobe">Explore wardrobe intelligence <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="work-footer">More than a screenshot. Each repository includes source, methods, attribution and the limits of what was verified. <a href="https://github.com/vanshverma0401-wq?tab=repositories">Browse the repositories <span aria-hidden="true">↗</span></a></p>
+    </section>
+
+    <section class="toolkit-section section-shell" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE TOOLKIT</p><h2 id="toolkit-title">Skills, with<br><span class="muted-word">something to show.</span></h2></div><p>The stack is a means to an outcome.<br>These are the tools I’ve used in the linked work.</p></div>
+      <div class="skill-grid">
+        <article><span class="skill-number">A</span><div class="skill-heading"><h3>Structure the data.</h3><span aria-hidden="true">⤢</span></div><p>Ingest, clean, join and model. Make the assumptions visible and the resulting tables useful.</p><ul class="skill-list"><li>Python / SQL</li><li>PySpark / Spark SQL</li><li>Amazon S3 / Parquet</li><li>Oracle / relational design</li><li>ETL / data quality</li></ul><a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark">Fragrance pipeline <span aria-hidden="true">↗</span></a><a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model">Oracle model <span aria-hidden="true">↗</span></a></article>
+        <article><span class="skill-number">B</span><div class="skill-heading"><h3>Test the question.</h3><span aria-hidden="true">⌁</span></div><p>Explore the pattern, establish a baseline and evaluate without hiding the uncertainty.</p><ul class="skill-list"><li>Pandas / NumPy</li><li>scikit-learn / XGBoost</li><li>Feature engineering</li><li>Time-aware evaluation</li><li>Tableau / Power BI</li></ul><a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/REPLAY_EXTENSION.md">Zillow benchmark <span aria-hidden="true">↗</span></a><a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/REPLAY_EXTENSION.md">Healthcare evaluation <span aria-hidden="true">↗</span></a></article>
+        <article><span class="skill-number">C</span><div class="skill-heading"><h3>Build the experience.</h3><span aria-hidden="true">⌘</span></div><p>Connect logic to a workflow. Think through inputs, state, persistence and the person using it.</p><ul class="skill-list"><li>Swift / SwiftUI / SwiftData</li><li>Python command-line tools</li><li>Local persistence / state</li><li>Automated validation</li><li>AI-assisted development & review</li></ul><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study">SetFlow case study <span aria-hidden="true">↗</span></a><a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence">Wardrobe CLI <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="about-section section-shell" id="about" aria-labelledby="about-title">
+      <div class="about-mark" aria-hidden="true"><span>v</span><span>v</span><small>ALWAYS<br>IN PROGRESS.</small></div>
+      <div class="about-copy"><p class="eyebrow">03 / A LITTLE CONTEXT</p><h2 id="about-title">Curious by default.<br><span class="muted-word">Practical by choice.</span></h2><p>I’m completing an M.S. in Data Science at the University of St. Thomas, with a 4.0/4.0 GPA and expected graduation in May 2027.</p><p>I enjoy the full path from a messy dataset to an explanation someone can act on. Alongside data work, building SetFlow has pushed me to think more carefully about product decisions, session state and human review of AI-assisted implementation.</p><div class="background-notes"><div><span>EARLIER EXPERIENCE</span><p>Client technical support and issue investigation at Stibo Systems.</p></div><div><span>TECHNICAL FOUNDATION</span><p>Java, Spring and Angular training, assessments and team demos at Cognizant.</p></div></div><div class="about-meta"><span>BASED IN MINNEAPOLIS</span><span>OPEN TO U.S. RELOCATION</span><span>SEEKING 2027 GRADUATE ROLES</span></div></div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title"><p class="eyebrow">NEXT / LET’S CONNECT</p><div class="contact-layout"><h2 id="contact-title">Good work starts<br>with a <span>conversation.</span></h2><div><p>Exploring 2027 early-career opportunities in data engineering, analytics, BI and software products.</p><a class="button button-mint" href="https://www.linkedin.com/in/vansh-verma-403377333/">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="contact-github" href="https://github.com/vanshverma0401-wq">Explore the code on GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="footer-name" href="#">Vansh Verma <span aria-hidden="true">↗</span></a><span>DATA · CODE · PRODUCT</span><p>Public project evidence · November 2026</p><a href="assets/provenance.json">Visual sources & attribution</a></footer>
+
+  <dialog id="case-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><button class="dialog-close" type="button" aria-label="Close project case study">Close <span aria-hidden="true">×</span></button><div id="dialog-content"></div></div></dialog>
+</body>
+</html>

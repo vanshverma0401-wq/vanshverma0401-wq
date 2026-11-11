@@ -1,0 +1,23 @@
+[
+  {
+    "asset": "zillow-benchmark.svg",
+    "sha256": "50ba3ed6701e0986c3cd930e15f6ff8f91517f6a7129dd85512155d32d2857aa",
+    "source_url": "https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/technical/replay/metro_benchmark_2026-11-10.json",
+    "source_sha256": "9368a360ee3f81b0922e676976567338d0020dd1f3f7068e417e7f6cecb6347d",
+    "scope": "Derived from actual aggregate report; separate historical benchmark."
+  },
+  {
+    "asset": "healthcare-evaluation.svg",
+    "sha256": "ed4f9ddd2680d62d4a8a2ba3461898a89a477965b909d64c412ae3d0055ad1b0",
+    "source_url": "https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/technical/replay/billing_benchmark_2026-11-10.json",
+    "source_sha256": "8d7a1044cd5b1d2011afc768733625cc5216fec148734b0548615e7864b56b3a",
+    "scope": "Derived from actual aggregate report; synthetic, non-clinical evaluation."
+  },
+  {
+    "asset": "oracle-schema.svg",
+    "sha256": "52f6f4ea806b06b06fb41b3c69661252fcda30e83b8cb6919bd4ac9f2eb76ad7",
+    "source_url": "https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/schema.sql",
+    "source_sha256": "067fbb306a47c630850c697bd6cb65d07aae8377a6afe8bca70d5384aa5362b3",
+    "scope": "New conceptual diagram of existing fictional demonstration schema; not execution evidence."
+  }
+]
