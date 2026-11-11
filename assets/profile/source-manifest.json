@@ -1,0 +1,74 @@
+{
+  "reviewed_date": "2026-11-11",
+  "scope": "Already-public project images copied without editing. New SVGs are labeled conceptual or aggregate-evaluation presentations.",
+  "copies": [
+    {
+      "file": "fragrance-accord-trends.png",
+      "source_repository": "fragrance-data-lake-pyspark",
+      "source_path": "assets/accord_trends.png",
+      "source_url": "https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/blob/main/assets/accord_trends.png",
+      "sha256": "7dd896b3a7fd201fc047823b1180b30d21c0eb5c3542a5b52087cc0f5204341e"
+    },
+    {
+      "file": "zillow-home-value-trends.png",
+      "source_repository": "zillow-housing-market-analysis",
+      "source_path": "assets/figures/home-value-trends.png",
+      "source_url": "https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/assets/figures/home-value-trends.png",
+      "sha256": "e12df50ada0ead6bd005c73735f5c8699599137c26f14ed82c814d6fbd9bcaa2"
+    },
+    {
+      "file": "setflow-workout-history.png",
+      "source_repository": "setflow-product-case-study",
+      "source_path": "screenshots/04-workout-history.png",
+      "source_url": "https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/screenshots/04-workout-history.png",
+      "sha256": "43e6b39fe480ad659b8530cb1fa3e02cd87655c996d6452d2f9ec19935210ce1"
+    },
+    {
+      "file": "nba-three-point-leaders.png",
+      "source_repository": "nba-bench-impact-analysis",
+      "source_path": "assets/figures/three_point_leaders.png",
+      "source_url": "https://github.com/vanshverma0401-wq/nba-bench-impact-analysis/blob/main/assets/figures/three_point_leaders.png",
+      "sha256": "808f4796e05a27dabc67e4b7784bc5b3b58932868c753d5aa5c8eae628be6a07"
+    },
+    {
+      "file": "wardrobe-summary.png",
+      "source_repository": "fragrance-wardrobe-intelligence",
+      "source_path": "assets/wardrobe-intelligence-summary.png",
+      "source_url": "https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence/blob/main/assets/wardrobe-intelligence-summary.png",
+      "sha256": "cdf1a82cd801216159c4273957c49223412fc8ade4c65f1fb861dcff8ba9063a"
+    },
+    {
+      "file": "salary-review.svg",
+      "source_repository": "ai-workforce-tableau-dashboard",
+      "source_path": "assets/review/salary-overview.svg",
+      "source_url": "https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/blob/main/assets/review/salary-overview.svg",
+      "sha256": "87271544827b92062bbe388e36340a5e0197027a04c9ffa3b5687b5dd4e525f6"
+    },
+    {
+      "file": "anthony-edwards-review.svg",
+      "source_repository": "anthony-edwards-power-bi-dashboard",
+      "source_path": "assets/review/season-scoring-overview.svg",
+      "source_url": "https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard/blob/main/assets/review/season-scoring-overview.svg",
+      "sha256": "2127d172c888ea5c0e87b3dff1d46ab3ac403cbe7098276ec010a512bcdc237f"
+    }
+  ],
+  "new_graphics": [
+    {
+      "file": "profile-header.svg",
+      "scope": "Decorative personal portfolio introduction; no runtime claim.",
+      "sha256": "36fe0ff99585d5dc9cd30c390c750b414343fdf456215741c4a934d5abc9d2c4"
+    },
+    {
+      "file": "oracle-schema.svg",
+      "scope": "New conceptual diagram of the already-public five-table fictional demonstration, not original final schema or Oracle runtime proof.",
+      "source_url": "https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/schema.sql",
+      "sha256": "263ed371f9a3cd15ec2128a05b9f6d923a01966bcd3f4b8c928f816f86a56621"
+    },
+    {
+      "file": "healthcare-evaluation.svg",
+      "scope": "New presentation of aggregate results, not a clinical result or original notebook figure.",
+      "source_url": "https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/technical/replay/billing_benchmark_2026-11-10.json",
+      "sha256": "1eb3b3dbbd28ebdce6c0d495e39c8a6d8a53d8bf7967e09587c29a3b66680c64"
+    }
+  ]
+}

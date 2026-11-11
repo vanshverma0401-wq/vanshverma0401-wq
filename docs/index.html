@@ -36,7 +36,7 @@
       <div class="hero-art" aria-label="A visual introduction to the fragrance data project">
         <div class="orbit-label" aria-hidden="true">INPUT → STRUCTURE → INSIGHT</div>
         <div class="depth-stage">
-          <div class="depth-grid" aria-hidden="true"></div>
+          <div class="grid-clip" aria-hidden="true"><div class="depth-grid"></div></div>
           <div class="data-window window-back" aria-hidden="true">
             <div class="window-bar"><span class="window-dots">● ● ●</span><span>PIPELINE / 001</span><span>PYSPARK</span></div>
             <div class="code-lines"><span class="code-comment"># give heterogeneous data a useful shape</span><br><span class="code-blue">reviews</span> = spark.read.json(source)<br><span class="code-blue">curated</span> = reviews.join(products)<br><span class="code-blue">curated</span>.write.parquet(destination)<br><span class="code-comment"># validate, explain, document</span></div>

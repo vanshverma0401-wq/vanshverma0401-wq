@@ -44,6 +44,6 @@ dialog{max-width:none;width:min(1120px,calc(100vw - 64px));max-height:calc(100dv
 .dialog-details h3{font-size:11px;line-height:1.8}
 .dialog-details .dialog-credit,.dialog-caption{font-size:11px;line-height:1.8}
 .dialog-links a,.dialog-close,.image-controls{font-size:12px}
-@media (max-width:800px){.hero-art{overflow:clip}}
+.grid-clip{position:absolute;inset:0;overflow:clip;pointer-events:none}
 @media (max-width:800px){.skill-grid article{gap:0 24px}.skill-grid article>p{max-width:none}.skill-list{font-size:13px}.site-header nav{gap:19px}}
 @media (max-width:540px){.identity{gap:10px}.monogram{width:34px}.site-header nav{gap:12px}.filters button{padding:8px 10px}.project-count{padding-top:10px}.about-meta{gap:10px 16px}.about-meta>span+span::before{display:none}.project-topline .project-kind{text-align:left}.skill-list{font-size:14px}.site-footer>p{margin-left:0}}
