@@ -15,6 +15,12 @@ U.S. relocation.
 [SetFlow website review](https://setflow-review-nov03.vanshverma0401.chatgpt.site) ·
 [SetFlow product walkthrough](https://setflow-review-nov03.vanshverma0401.chatgpt.site/watch.html#momentum)
 
+For a focused review, start with:
+
+- **Data engineering:** [Fragrance Data Lake](https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark) and [Oracle relational modeling](https://github.com/vanshverma0401-wq/nba-oracle-relational-model).
+- **Machine learning:** [Healthcare ML](https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis) and [Zillow housing analysis](https://github.com/vanshverma0401-wq/zillow-housing-market-analysis), with their evaluation limitations.
+- **Product engineering:** [SetFlow case study](https://github.com/vanshverma0401-wq/setflow-product-case-study) and its dated synthetic demonstrations.
+
 ## Explore the work
 
 <table>
