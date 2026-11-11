@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-labelledby="title desc">
+<title id="title">Proof, in the details.</title><desc id="desc">01 / SELECTED WORK. PIPELINES / EXPERIMENTS / PRODUCTS</desc>
+<rect width="1280" height="200" rx="18" fill="#101416"/>
+<path d="M32 24H1248" stroke="#33443d"/>
+<circle cx="40" cy="58" r="5" fill="#b6f3cd"/>
+<text x="57" y="65" fill="#a0ada7" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="22" letter-spacing="2">01 / SELECTED WORK</text>
+<text x="32" y="134" fill="#b6f3cd" font-family="Sora, 'Avenir Next', sans-serif" font-size="48" font-weight="600" letter-spacing="-1.6">Proof, in the details.</text>
+<text x="34" y="174" fill="#a0ada7" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="18" letter-spacing="1.5">PIPELINES / EXPERIMENTS / PRODUCTS</text>
+<path d="M1192 94h35v35m0-35-39 39" stroke="#b6f3cd" stroke-width="2" fill="none"/>
+</svg>

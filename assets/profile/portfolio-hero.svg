@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="700" viewBox="0 0 1280 700" role="img" aria-labelledby="title desc">
+  <title id="title">Vansh Verma — Make data useful. Then build on it.</title>
+  <desc id="desc">Dark editorial portfolio introduction. Vansh Verma, Minneapolis, class of 2027. Layered conceptual data panels show verified historical fragrance data-lake counts: 23.9 million Amazon review rows parsed, 57.4 thousand fragrance products filtered from metadata and 1.25 million joined fragrance-review rows. Individual academic project. Decorative interface, not a running application.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101718"/><stop offset="1" stop-color="#0f1416"/></linearGradient>
+    <radialGradient id="glow" cx="75%" cy="46%" r="65%"><stop stop-color="#284139" stop-opacity=".28"/><stop offset="1" stop-color="#101416" stop-opacity="0"/></radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26362f"/><stop offset="1" stop-color="#182320"/></linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9e6d9"/><stop offset="1" stop-color="#b8cdbf"/></linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#486456" stroke-width=".7" opacity=".35"/></pattern>
+    <clipPath id="bounds"><rect width="1280" height="700" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1280" height="700" fill="url(#background)"/>
+    <rect width="1280" height="700" fill="url(#glow)"/>
+    <path d="M56 99H1224" stroke="#36443e"/>
+    <g font-family="Trebuchet MS,DejaVu Sans,sans-serif">
+      <text x="56" y="67" fill="#b6f3cd" font-size="39" font-weight="700" letter-spacing="-4">vv</text>
+      <path d="m106 38 16-16m-11 0h11v11" fill="none" stroke="#93c6a6" stroke-width="1.8"/>
+      <text x="143" y="48" fill="#edf2ed" font-size="23" font-weight="700">Vansh Verma</text>
+      <text x="143" y="75" fill="#899d92" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="14" letter-spacing="2">DATA · CODE · PRODUCT</text>
+      <text x="1223" y="57" fill="#a0ada7" text-anchor="end" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="14" letter-spacing="1.5">BUILD WITH INTENT.</text>
+      <circle cx="64" cy="151" r="5" fill="#b6f3cd"/>
+      <text x="82" y="157" fill="#a9d9bc" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="16" letter-spacing="1.8">MINNEAPOLIS, MN · CLASS OF 2027</text>
+      <g font-size="78" font-weight="700" letter-spacing="-4" fill="#edf2ed">
+        <text x="51" y="252">Make data</text>
+        <text x="51" y="336">useful.</text>
+        <text x="51" y="420" fill="#b6f3cd">Then build</text>
+        <text x="51" y="504" fill="#b6f3cd">on it.</text>
+      </g>
+      <g fill="#a0ada7" font-size="20">
+        <text x="56" y="552">Clear analysis. Dependable data workflows.</text>
+        <text x="56" y="583">Thoughtful software.</text>
+      </g>
+    </g>
+    <g transform="translate(680 145) rotate(-8 260 150)">
+      <rect x="9" y="16" width="536" height="242" rx="15" fill="#050a08" opacity=".24"/>
+      <rect width="536" height="242" rx="15" fill="#1b2924" stroke="#40564a" stroke-width="1.5"/>
+      <path d="M0 48H536" stroke="#40564a"/>
+      <g fill="#718d7d"><circle cx="24" cy="24" r="3"/><circle cx="39" cy="24" r="3"/><circle cx="54" cy="24" r="3"/></g>
+      <g font-family="Consolas,DejaVu Sans Mono,monospace" font-size="13" fill="#8fa99a"><text x="167" y="29" letter-spacing="1">PIPELINE / 001</text><text x="511" y="29" text-anchor="end">PYSPARK</text></g>
+      <g font-family="Consolas,DejaVu Sans Mono,monospace" font-size="15">
+        <text x="26" y="91" fill="#789382"># give messy inputs a useful shape</text>
+        <text x="26" y="127" fill="#b3c8e4">reviews<tspan fill="#c0ccc4"> = spark.read.json(source)</tspan></text>
+        <text x="26" y="161" fill="#b3c8e4">curated<tspan fill="#c0ccc4"> = reviews.join(products)</tspan></text>
+        <text x="26" y="195" fill="#b3c8e4">curated<tspan fill="#c0ccc4">.write.parquet(destination)</tspan></text>
+        <text x="26" y="224" fill="#789382"># validate, explain, document</text>
+      </g>
+    </g>
+    <path d="m698 402 472-164 84 222-472 164Z" fill="url(#grid)" opacity=".5"/>
+    <g transform="translate(627 333) rotate(3 280 105)">
+      <rect x="9" y="15" width="592" height="224" rx="15" fill="#050a08" opacity=".3"/>
+      <rect width="592" height="224" rx="15" fill="url(#panel)" stroke="#536e5d" stroke-width="1.5"/>
+      <path d="M0 45H592M0 178H592" stroke="#4b6455"/>
+      <g fill="#718d7d"><circle cx="24" cy="23" r="3"/><circle cx="39" cy="23" r="3"/><circle cx="54" cy="23" r="3"/></g>
+      <g font-family="Consolas,DejaVu Sans Mono,monospace" font-size="13" fill="#abc2b2"><text x="144" y="28" letter-spacing="1">FRAGRANCE DATA LAKE</text><text x="567" y="28" text-anchor="end">01—03</text></g>
+      <g font-family="Trebuchet MS,DejaVu Sans,sans-serif" fill="#b6f3cd" font-size="40" font-weight="700" letter-spacing="-1">
+        <text x="24" y="117">23.9M</text><text x="226" y="117">57.4K</text><text x="423" y="117">1.25M</text>
+      </g>
+      <g font-family="Consolas,DejaVu Sans Mono,monospace" fill="#91a89a" font-size="12"><text x="26" y="72">01</text><text x="228" y="72">02</text><text x="425" y="72">03</text></g>
+      <g font-family="Trebuchet MS,DejaVu Sans,sans-serif" fill="#b6c5ba" font-size="14"><text x="24" y="147">reviews parsed</text><text x="225" y="147">fragrance products</text><text x="423" y="147">joined review rows</text></g>
+      <g font-family="Trebuchet MS,DejaVu Sans,sans-serif" fill="#86a591" font-size="29"><text x="179" y="116">+</text><text x="375" y="116">→</text></g>
+      <circle cx="25" cy="201" r="3" fill="#b6f3cd"/>
+      <text x="37" y="205" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="11" letter-spacing=".5" fill="#a9c1b1">INDIVIDUAL ACADEMIC PROJECT · HISTORICAL EXECUTION</text>
+    </g>
+    <g transform="translate(770 549) rotate(-3 210 30)">
+      <rect width="430" height="65" rx="11" fill="url(#light)" stroke="#96b09d"/>
+      <text x="22" y="27" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="12" letter-spacing="1" fill="#526e5d">FROM INPUT TO STRUCTURE</text>
+      <text x="22" y="51" font-family="Trebuchet MS,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#20372a">Ingest. Validate. Join. Explain.</text>
+      <path d="m386 42 18-18m-13 0h13v13" stroke="#355441" stroke-width="2" fill="none"/>
+    </g>
+    <path d="M56 641H1224" stroke="#36443e"/>
+    <g font-family="Consolas,DejaVu Sans Mono,monospace" font-size="14" letter-spacing="1.2"><text x="56" y="674" fill="#b6f3cd">PYTHON / SQL AT THE CENTER.</text><text x="1224" y="674" fill="#899d92" text-anchor="end">CURIOSITY ACROSS THE STACK. ↓</text></g>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="698.5" rx="23.25" fill="none" stroke="#2d3c34" stroke-width="1.5"/>
+</svg>

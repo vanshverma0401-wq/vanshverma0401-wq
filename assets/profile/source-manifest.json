@@ -1,6 +1,6 @@
 {
   "reviewed_date": "2026-11-11",
-  "scope": "Already-public project images copied without editing. New SVGs are labeled conceptual or aggregate-evaluation presentations.",
+  "scope": "Already-public project images copied unchanged; new inert vector presentation matches the separate portfolio. SVG conceptual/evaluation scopes remain explicit.",
   "copies": [
     {
       "file": "fragrance-accord-trends.png",
@@ -50,6 +50,14 @@
       "source_path": "assets/review/season-scoring-overview.svg",
       "source_url": "https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard/blob/main/assets/review/season-scoring-overview.svg",
       "sha256": "2127d172c888ea5c0e87b3dff1d46ab3ac403cbe7098276ec010a512bcdc237f"
+    },
+    {
+      "file": "fragrance-brand-ratings.png",
+      "source_repository": "fragrance-data-lake-pyspark",
+      "source_path": "assets/brand_rating_support.png",
+      "source_url": "https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/blob/main/assets/brand_rating_support.png",
+      "sha256": "07356007fe5722fae08e53e7897323bd08cf6d3bf7d61f8a20e60f6e01b93549",
+      "scope": "Unchanged existing chart from the separate 30,046-record Parfumo branch; not Amazon review results."
     }
   ],
   "new_graphics": [
@@ -69,6 +77,31 @@
       "scope": "New presentation of aggregate results, not a clinical result or original notebook figure.",
       "source_url": "https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/technical/replay/billing_benchmark_2026-11-10.json",
       "sha256": "1eb3b3dbbd28ebdce6c0d495e39c8a6d8a53d8bf7967e09587c29a3b66680c64"
+    },
+    {
+      "file": "portfolio-hero.svg",
+      "scope": "Portfolio-style vector presentation. Hero metrics describe verified historical individual academic Amazon-review pipeline; decorative layers are not runtime evidence.",
+      "sha256": "7f4bef5ec9f052686fe8acb72be0deef0fd91557dd835a2800520e8b9796b285"
+    },
+    {
+      "file": "portfolio-hero-mobile.svg",
+      "scope": "Portfolio-style vector presentation. Hero metrics describe verified historical individual academic Amazon-review pipeline; decorative layers are not runtime evidence.",
+      "sha256": "e6a68ba4e5e4dfa621ea2e18a18a6e3e7ab5ee3ddfa84c49c3d4da0b36579ced"
+    },
+    {
+      "file": "work-title.svg",
+      "scope": "Decorative section heading; no new project or runtime claim.",
+      "sha256": "7d8256472a3775ea6eb82354b2ad0d015328bfaec1b589589ced0c2384f1e6e4"
+    },
+    {
+      "file": "toolkit-title.svg",
+      "scope": "Decorative section heading; no new project or runtime claim.",
+      "sha256": "773e8926d4a95fa45f031a3dab5f95047a41f19f8c1074b115ec2e18b83e10c7"
+    },
+    {
+      "file": "about-title.svg",
+      "scope": "Decorative section heading; no new project or runtime claim.",
+      "sha256": "f74079ed146265215586b68e270f2032e95ba4db028e471f1c856e1573faed72"
     }
   ]
 }

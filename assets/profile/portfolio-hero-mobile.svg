@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Vansh Verma — Make data useful. Then build on it.</title>
+  <desc id="desc">Vansh Verma, Minneapolis, class of 2027. Python and SQL data engineering, analysis and thoughtful software. The fragrance data lake processed 23.9 million Amazon review rows, filtered 57.4 thousand fragrance products from metadata and joined 1.25 million review rows. Individual academic project with verified historical execution. Decorative interface, not a running application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b19"/><stop offset="1" stop-color="#101416"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#293c32"/><stop offset="1" stop-color="#19251f"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#486456" stroke-width=".6" opacity=".35" fill="none"/></pattern>
+    <clipPath id="bounds"><rect width="640" height="800" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="640" height="800" fill="url(#bg)"/>
+    <g font-family="Trebuchet MS,DejaVu Sans,sans-serif">
+      <text x="34" y="62" fill="#b6f3cd" font-size="38" font-weight="700" letter-spacing="-4">vv</text>
+      <path d="m85 35 14-14m-10 0h10v10" stroke="#93c6a6" stroke-width="1.8" fill="none"/>
+      <text x="121" y="46" fill="#edf2ed" font-size="23" font-weight="700">Vansh Verma</text>
+      <text x="121" y="72" fill="#899d92" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="15" letter-spacing="1.5">DATA · CODE · PRODUCT</text>
+      <path d="M34 98H606" stroke="#36443e"/>
+      <circle cx="41" cy="136" r="5" fill="#b6f3cd"/>
+      <text x="58" y="142" fill="#a9d9bc" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="16" letter-spacing="1">MINNEAPOLIS · CLASS OF 2027</text>
+      <g font-size="70" font-weight="700" letter-spacing="-3" fill="#edf2ed">
+        <text x="29" y="232">Make data</text>
+        <text x="29" y="310">useful.</text>
+        <text x="29" y="388" fill="#b6f3cd">Then build on it.</text>
+      </g>
+      <g fill="#a0ada7" font-size="21">
+        <text x="34" y="437">Clear analysis. Dependable data workflows.</text>
+        <text x="34" y="469">Thoughtful software.</text>
+      </g>
+    </g>
+    <rect x="218" y="484" width="388" height="214" fill="url(#grid)"/>
+    <g transform="translate(34 514)">
+      <rect x="6" y="9" width="572" height="187" rx="14" fill="#050a08" opacity=".32"/>
+      <rect width="572" height="187" rx="14" fill="url(#panel)" stroke="#536e5d" stroke-width="1.5"/>
+      <path d="M0 47H572M0 148H572" stroke="#4b6455"/>
+      <g fill="#718d7d"><circle cx="22" cy="24" r="3"/><circle cx="37" cy="24" r="3"/><circle cx="52" cy="24" r="3"/></g>
+      <text x="87" y="30" fill="#abc2b2" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="16" letter-spacing=".5">FRAGRANCE DATA LAKE</text>
+      <g font-family="Trebuchet MS,DejaVu Sans,sans-serif" fill="#b6f3cd" font-size="38" font-weight="700" letter-spacing="-1"><text x="21" y="99">23.9M</text><text x="218" y="99">57.4K</text><text x="415" y="99">1.25M</text></g>
+      <g font-family="Trebuchet MS,DejaVu Sans,sans-serif" fill="#b6c5ba" font-size="15"><text x="21" y="128">reviews parsed</text><text x="218" y="128">fragrance products</text><text x="415" y="128">joined rows</text></g>
+      <g font-family="Trebuchet MS,DejaVu Sans,sans-serif" fill="#86a591" font-size="27"><text x="174" y="97">+</text><text x="370" y="97">→</text></g>
+      <circle cx="22" cy="169" r="3" fill="#b6f3cd"/>
+      <text x="35" y="175" fill="#abc2b2" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="13" letter-spacing=".5">INDIVIDUAL ACADEMIC PROJECT · HISTORICAL RUN</text>
+    </g>
+    <path d="M34 741H606" stroke="#36443e"/>
+    <text x="34" y="776" fill="#b6f3cd" font-family="Consolas,DejaVu Sans Mono,monospace" font-size="17" letter-spacing=".5">PYTHON / SQL AT THE CENTER. ↓</text>
+  </g>
+  <rect x=".75" y=".75" width="638.5" height="798.5" rx="23.25" fill="none" stroke="#2d3c34" stroke-width="1.5"/>
+</svg>
