@@ -17,7 +17,28 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
 <table>
 <tr>
 <td width="44%" valign="top">
-<sub>01 / FEATURED · DATA ENGINEERING</sub>
+<sub>01 / FEATURED · DATA ENGINEERING &amp; AI</sub>
+<h2>Zomato<br>AI Data Pipeline</h2>
+<p>Private S3 CSVs → Snowflake → tested dbt models, orchestrated through a manual Airflow workflow in Docker.</p>
+<h3>17 models · 28 passing data tests</h3>
+<p>10,000,000 generated orders<br>22,998,179 generated order items.</p>
+<p><strong>Python · SQL · Snowflake · dbt<br>Airflow · Docker · Hosted OpenAI</strong></p>
+<a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline"><strong>Inside the project ↗</strong></a> · <a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline/blob/main/docs/CASE_STUDY.md">Case study</a>
+</td>
+<td width="56%" valign="top">
+<sub>VERIFIED WORKFLOW / SAVED EVIDENCE</sub>
+<p><a href="https://raw.githubusercontent.com/vanshverma0401-wq/zomato-ai-data-pipeline/7abe336f61a04636a90d9244e25601672f458595/portfolio/screenshots/16-project-overview.jpg"><img src="https://raw.githubusercontent.com/vanshverma0401-wq/zomato-ai-data-pipeline/7abe336f61a04636a90d9244e25601672f458595/portfolio/screenshots/16-project-overview.jpg" alt="Saved Zomato project overview: 10 million generated orders, 22,998,179 order items, 17 dbt models, 28 passing data tests and three bounded AI features" width="500"></a></p>
+<p><strong>Three AI features, with review gates.</strong><br>Structured review enrichment, hosted-embedding RAG with checked source IDs, and SQL generation → inspection → execution.</p>
+<p><sub>Guided implementation from <a href="https://www.youtube.com/watch?v=kYwaNMQ3XT8">Darshil Parmar’s tutorial</a>, developed with AI coding assistance. Orders, items and review texts are tutorial-generated. One manual replay verified; services shut down and cloud data copies removed afterward. Code and saved evidence remain available.</sub></p>
+<a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline/blob/main/portfolio/README.md">Example gallery</a> · <a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline/blob/main/docs/VERIFICATION.md">Verification and limits</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="44%" valign="top">
+<sub>02 / FEATURED · DATA ENGINEERING</sub>
 <h2>Fragrance<br>Data Lake</h2>
 <p>Finding structure in millions of reviews. A PySpark and AWS S3 workflow for ingestion, cleaning, joins and curated analytical tables.</p>
 <h3>23.9M → 1.25M</h3>
@@ -38,7 +59,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
 <table>
   <tr>
     <td width="50%" valign="top">
-      <sub>02 / DATABASE DESIGN</sub>
+      <sub>03 / DATABASE DESIGN</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model">NBA Oracle Relational Model ↗</a></h3>
       <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model"><img src="assets/profile/oracle-schema.svg" alt="Conceptual five-table fictional Oracle demonstration, separate from original final coursework" width="420"></a>
       <p>Model rosters, games and player statistics, then answer scoring and team-comparison questions.</p>
@@ -47,7 +68,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
       <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/coursework/final_schema.sql">Original DDL</a> · <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/analysis_queries.sql">Queries</a> · <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/tree/main/verification">Assertions</a>
     </td>
     <td width="50%" valign="top">
-      <sub>03 / PRODUCT ENGINEERING</sub>
+      <sub>04 / PRODUCT ENGINEERING</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study">SetFlow ↗</a></h3>
       <p align="center"><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study"><img src="assets/profile/setflow-workout-history.png" alt="Dated synthetic iOS Simulator screenshot of private SetFlow workout history" width="145"></a></p>
       <p>A native strength-training app connecting planning, set logging, recovery and retained workout history.</p>
@@ -58,7 +79,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>04 / TIME-SERIES ANALYTICS</sub>
+      <sub>05 / TIME-SERIES ANALYTICS</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis">Zillow Housing Analysis ↗</a></h3>
       <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis"><img src="assets/profile/zillow-home-value-trends.png" alt="Original collaborative Zillow home-value trends across selected metropolitan groups" width="420"></a>
       <p>Six business questions, 18 saved charts and a separate 50-metro benchmark with exact calendar targets and a purged time split.</p>
@@ -67,7 +88,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
       <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/FINAL_PROJECT.md">Final project</a> · <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/REPLAY_EXTENSION.md">New benchmark</a>
     </td>
     <td width="50%" valign="top">
-      <sub>05 / APPLIED MACHINE LEARNING</sub>
+      <sub>06 / APPLIED MACHINE LEARNING</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis">Healthcare ML ↗</a></h3>
       <a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis"><img src="assets/profile/healthcare-evaluation.svg" alt="New synthetic billing benchmark: fixed logistic test ROC-AUC 0.485 versus prior baseline 0.500; weak signal disclosed" width="420"></a>
       <p>Preprocessing, feature engineering and model comparison, with a new group-disjoint billing evaluation that reports weak signal honestly.</p>
@@ -78,7 +99,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>06 / BUSINESS INTELLIGENCE</sub>
+      <sub>07 / BUSINESS INTELLIGENCE</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard">Data &amp; AI Workforce ↗</a></h3>
       <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard"><img src="assets/profile/salary-review.svg" alt="November 2026 Python review of 637 historical salary records; not a native Tableau export" width="420"></a>
       <p>Turn a 637-record historical salary snapshot into calculated fields, KPIs and comparative dashboard views.</p>
@@ -87,7 +108,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
       <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/blob/main/FIGURE_GALLERY.md">Original gallery</a> · <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/tree/main/technical">Technical evidence</a>
     </td>
     <td width="50%" valign="top">
-      <sub>07 / SPORTS ANALYTICS</sub>
+      <sub>08 / SPORTS ANALYTICS</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis">NBA Bench Impact ↗</a></h3>
       <a href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis"><img src="assets/profile/nba-three-point-leaders.png" alt="Qualified three-point leaders in the defined 2023–24 NBA bench-majority cohort" width="420"></a>
       <p>572 unique player records, a transparent 185-player cohort and four result charts with explicit qualification thresholds.</p>
@@ -98,7 +119,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>08 / REPORTING &amp; COMPARISON</sub>
+      <sub>09 / REPORTING &amp; COMPARISON</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard">Anthony Edwards Dashboard ↗</a></h3>
       <a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard"><img src="assets/profile/anthony-edwards-review.svg" alt="November 2026 Python review of 381 recorded games across five NBA seasons; not a Power BI export" width="420"></a>
       <p>Five seasons, 381 recorded games and a selected peer group, with season trends and separate win/loss averages.</p>
@@ -107,7 +128,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
       <a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard#complete-figure-gallery">Original figures</a> · <a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard/tree/main/technical">Checked aggregates</a>
     </td>
     <td width="50%" valign="top">
-<sub>09 / LOCAL SOFTWARE</sub>
+<sub>10 / LOCAL SOFTWARE</sub>
 <h3><a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence">Fragrance Wardrobe Intelligence ↗</a></h3>
 <a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence"><img src="assets/profile/wardrobe-summary.png" alt="Local wardrobe demo using eight fictional collection items and 18 wear events" width="420"></a>
 <p>A collection, made more useful. A local Python CLI for rotation, coverage, cost per logged wear and explainable heuristic matching.</p>
@@ -130,8 +151,8 @@ Every project links to its source, methods, attribution and verification limits.
 <sub>A / DATA ENGINEERING</sub>
 <h3>Structure<br>the data.</h3>
 <p>Ingest, clean, join and model.</p>
-<p><strong>Python · SQL<br>PySpark · Spark SQL<br>Amazon S3 · Parquet<br>Oracle · Relational design<br>ETL · Data quality</strong></p>
-<p><a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark">Pipeline evidence ↗</a><br><a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model">Relational model ↗</a></p>
+<p><strong>Python · SQL<br>PySpark · Spark SQL<br>Amazon S3 · Snowflake · Parquet<br>dbt · Airflow · Docker<br>Oracle · Relational design<br>ETL · Data quality</strong></p>
+<p><a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline">Snowflake/dbt workflow ↗</a><br><a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark">PySpark pipeline ↗</a><br><a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model">Relational model ↗</a></p>
 </td>
 <td width="34%" valign="top">
 <sub>B / ML, ANALYTICS &amp; BI</sub>
@@ -144,8 +165,8 @@ Every project links to its source, methods, attribution and verification limits.
 <sub>C / PRODUCT &amp; SOFTWARE</sub>
 <h3>Build<br>the experience.</h3>
 <p>Connect logic to a useful workflow.</p>
-<p><strong>SwiftUI · SwiftData<br>Python command-line tools<br>Local state · Persistence<br>Input validation<br>AI-assisted development &amp; review</strong></p>
-<p><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study">SetFlow case study ↗</a><br><a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence">Local CLI ↗</a></p>
+<p><strong>SwiftUI · SwiftData<br>Python command-line tools<br>Local state · Persistence<br>Input validation<br>Hosted OpenAI · Embeddings<br>RAG · SQL generation guards<br>AI-assisted development &amp; review</strong></p>
+<p><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study">SetFlow case study ↗</a><br><a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence">Local CLI ↗</a><br><a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline/blob/main/docs/FEATURES.md">Hosted AI examples ↗</a></p>
 </td>
 </tr>
 </table>
@@ -156,7 +177,7 @@ Every project links to its source, methods, attribution and verification limits.
 
 I enjoy the full path from a messy dataset to an explanation someone can act on. Building **SetFlow** has pushed me to think carefully about product decisions, session state and human review of AI-assisted implementation.
 
-At **Stibo Systems**, I worked in client technical support and issue investigation. My **Cognizant** background includes Java/Spring/Angular training, assessments and team demos. Introductory Snowflake coursework is separate from the implemented project evidence above.
+At **Stibo Systems**, I worked in client technical support and issue investigation. My **Cognizant** background includes Java/Spring/Angular training, assessments and team demos. The Zomato project adds tutorial-derived Snowflake/dbt implementation, a verified Airflow replay and three bounded hosted-AI demonstrations.
 
 **Good work starts with a conversation.** Exploring 2027 early-career opportunities in data engineering, analytics, BI and software products.
 
