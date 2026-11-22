@@ -3,15 +3,31 @@
 const github = 'https://github.com/vanshverma0401-wq/';
 const projects = {
   fragrance: {
-    title: 'Fragrance Data Lake', label: '01 / DATA ENGINEERING', repo: 'fragrance-data-lake-pyspark',
+    title: 'Fragrance Data Lake | PySpark, Spark SQL & AWS S3', label: 'DATA ENGINEERING', repo: 'fragrance-data-lake-pyspark',
     description: 'An individual academic AWS/PySpark workflow that parsed heterogeneous reviews and product metadata, filtered fragrance products, joined records and produced curated Parquet tables. A separate Parfumo-derived branch supports brand, accord and note analyses.',
     images: [{src:'assets/projects/fragrance.png',alt:'Weighted fragrance brand ratings and their supporting counts',caption:'Saved Parfumo-derived aggregate result: 30,046 cleaned fragrance records. This chart does not summarize the 23.9M Amazon reviews.'}],
     details: ['23,911,390 Amazon review rows parsed; 57,428 fragrance products filtered from 1,028,914 metadata rows.', '1,248,393 joined fragrance-review rows in the verified private execution.', 'Public reconstruction includes source, aggregate results, environment notes and a separate fictional ingestion/replay/rollback exercise.'],
     credit: 'Individual academic project by Vansh Verma. The full historical Spark/cloud run was not rerun for the public reconstruction.',
-    links: [{label:'Source & methods',href:github+'fragrance-data-lake-pyspark'},{label:'Aggregate results',href:github+'fragrance-data-lake-pyspark/tree/main/data/derived'}]
+    links: [{label:'Verified Spark execution',href:github+'fragrance-data-lake-pyspark#verified-execution-results'},{label:'Source & methods',href:github+'fragrance-data-lake-pyspark'},{label:'Separate Parfumo aggregates',href:github+'fragrance-data-lake-pyspark/tree/main/data/derived'}]
+  },
+  zomato: {
+    title: 'Zomato AI Data Pipeline | Snowflake, dbt & Airflow',
+    label: 'DATA ENGINEERING',
+    description: 'A tutorial-derived learning project that loads generated order data from S3 into Snowflake, transforms it with dbt and runs four tasks in Airflow.',
+    images: [],
+    evidence: [
+      {label: 'dbt lineage screenshot', caption: 'See how sources, staging models and marts connect.', href: github + 'zomato-ai-data-pipeline/blob/main/portfolio/README.md#dbt-full-release-lineage'},
+      {label: 'Airflow run screenshot', caption: 'See the four successful tasks from the November 13 replay.', href: github + 'zomato-ai-data-pipeline/blob/main/portfolio/README.md#airflow-four-task-run-passed'}
+    ],
+    details: ['17 dbt models and 28 passing data tests.', 'One verified November 13, 2026 replay with generated orders.', 'Separate AI review enrichment, retrieval and guarded SQL examples.'],
+    credit: 'Vansh Verma adapted Darshil Parmar’s tutorial with AI coding assistance. The run uses generated data in a learning environment.',
+    links: [
+      {label: 'Code & project scope', href: github + 'zomato-ai-data-pipeline'},
+      {label: 'Tutorial attribution', href: github + 'zomato-ai-data-pipeline/blob/main/NOTICE'}
+    ]
   },
   oracle: {
-    title: 'NBA Oracle Relational Model', label: '02 / DATA MODELING', repo:'nba-oracle-relational-model',
+    title: 'NBA Oracle Relational Model | Database Design & Analytical SQL', label: 'DATA MODELING', repo:'nba-oracle-relational-model',
     description:'Relational design and analytical SQL for basketball rosters, games and performance. Original final coursework DDL sits alongside a deliberately smaller demonstration with fictional records.',
     images:[{src:'assets/generated/oracle-schema.svg',alt:'Conceptual five-table fictional demonstration schema',caption:'New conceptual diagram of the five-table demonstration schema; it is separate from the original coursework DDL.'}],
     details:['Original coursework: seven business tables plus an audit log.', 'Fictional demonstration: five tables, primary/foreign keys, integrity constraints, reusable views and ranking queries.', 'A verification runner checks expected totals and negative constraint cases; static checks are distinct from Oracle execution.'],
@@ -19,15 +35,15 @@ const projects = {
     links:[{label:'Schema & SQL',href:github+'nba-oracle-relational-model'},{label:'Verification scope',href:github+'nba-oracle-relational-model/tree/main/verification'}]
   },
   setflow:{
-    title:'SetFlow',label:'03 / PRODUCT ENGINEERING',repo:'setflow-product-case-study',
+    title:'SetFlow | Native iOS Strength-Training Product',label:'PRODUCT ENGINEERING',repo:'setflow-product-case-study',
     description:'A private native iPhone strength-training product in development, connecting planning, set logging, timed rest, interrupted-session continuity and retained training history.',
     images:[{src:'assets/projects/setflow-active.png',alt:'SetFlow active workout logging with synthetic data',caption:'October 31, 2026 iOS Simulator capture with synthetic workout data. This is not a physical-device or released-app claim.',phone:true},{src:'assets/projects/setflow-history.png',alt:'SetFlow workout history with synthetic session records',caption:'Dated synthetic iOS Simulator example of retained workout history.',phone:true}],
     details:['Product decisions focus on useful workout flows, input correctness and consistency between UI state and saved records.', 'SwiftUI and SwiftData underpin the native interface and local persistence.', 'A separate product review includes a 94-second walkthrough and dated synthetic demonstrations.'],
     credit:'My role is independent product direction and review. Coding agents provided substantial implementation, debugging, tests and documentation; most app code was AI-generated. Private, in development and pre-beta: no App Store release or beta access.',
-    links:[{label:'Product case study',href:github+'setflow-product-case-study'},{label:'Watch the walkthrough',href:'https://setflow-review-nov03.vanshverma0401.chatgpt.site/watch.html#momentum'}]
+    links:[{label:'Product case study',href:github+'setflow-product-case-study'},{label:'Watch the walkthrough',href:'https://setflow-review-nov03.vanshverma0401.chatgpt.site/watch#momentum'}]
   },
   zillow:{
-    title:'Zillow Housing Analysis',label:'04 / TIME-INDEXED ANALYSIS',repo:'zillow-housing-market-analysis',
+    title:'Zillow Housing Market Analysis | Time-Series Data & Model Evaluation',label:'TIME-SERIES ANALYSIS',repo:'zillow-housing-market-analysis',
     description:'A collaborative housing analysis combining geographic and time-indexed Zillow indicators. A later, separate metro benchmark makes keyed reconciliation, exact forecast horizons and chronological evaluation explicit.',
     images:[{src:'assets/generated/zillow-benchmark.svg',alt:'Fixed Ridge and persistence baseline errors on the separate historical metro benchmark',caption:'November 2026 extension, not the original neighborhood XGBoost model. Data Provided by Zillow Group.'},{src:'assets/projects/zillow.png',alt:'Original saved home-value trends for selected metropolitan groups',caption:'Original collaborative final-project figure. Data Provided by Zillow Group.'}],
     details:['Complete original final project: six questions, 70 notebook cells and 18 saved figures.', 'Separate benchmark: 50 selected metros, exact 24-month targets and 1,348 historical test rows.', 'Fixed Ridge MAE 13,357 versus unchanged-value baseline 24,850; training targets precede the test-origin period.'],
@@ -35,7 +51,7 @@ const projects = {
     links:[{label:'Complete final project',href:github+'zillow-housing-market-analysis/blob/main/FINAL_PROJECT.md'},{label:'New benchmark',href:github+'zillow-housing-market-analysis/blob/main/REPLAY_EXTENSION.md'}]
   },
   healthcare:{
-    title:'Healthcare ML & Operations',label:'05 / APPLIED MACHINE LEARNING',repo:'healthcare-ml-operations-analysis',
+    title:'Healthcare ML & Operations Analysis | Preprocessing, Baselines & Evaluation',label:'APPLIED MACHINE LEARNING',repo:'healthcare-ml-operations-analysis',
     description:'A six-person academic project using synthetic healthcare data for billing models and operations analysis. A separate billing extension tests whether simpler, more carefully separated evaluation actually finds predictive signal.',
     images:[{src:'assets/generated/healthcare-evaluation.svg',alt:'Separate synthetic-data billing benchmark with test ROC-AUC 0.485',caption:'New bounded evaluation on 10,000 retained synthetic records. Weak signal is an evaluation finding, not clinical success.'},{src:'assets/projects/healthcare.png',alt:'Original saved synthetic billing model comparison',caption:'Historical classroom model comparison from the original team project; separate from the new group-disjoint benchmark.'}],
     details:['New benchmark uses training-only preprocessing and an 85th-percentile target cutoff fitted only on training data.', 'Name-proxy groups remain disjoint across train, validation and test; name is not a model feature.', 'Fixed logistic test ROC-AUC 0.485, with a class-prior baseline: little evidence of useful predictive signal in this sample.'],
@@ -43,23 +59,23 @@ const projects = {
     links:[{label:'Original billing report',href:github+'healthcare-ml-operations-analysis/blob/main/FULL_BILLING_REPORT.md'},{label:'New evaluation',href:github+'healthcare-ml-operations-analysis/blob/main/REPLAY_EXTENSION.md'}]
   },
   tableau:{
-    title:'Data & AI Workforce Dashboard',label:'06 / BUSINESS INTELLIGENCE',repo:'ai-workforce-tableau-dashboard',
+    title:'Data & AI Workforce Insights | Tableau Dashboard & Data Preparation',label:'BUSINESS INTELLIGENCE',repo:'ai-workforce-tableau-dashboard',
     description:'A Tableau and Tableau Prep case study exploring a historical salary snapshot through calculated fields, categorical preparation and KPI reporting.',
     images:[{src:'assets/projects/salary.svg',alt:'Historical salary review with explicit sample and group counts',caption:'November 2026 Python/CSV review export, not a new Tableau export. Raw repeated rows are retained; group means are descriptive.'}],
     details:['637 salary records from 2020–2022, covering broader data roles as well as AI/ML.', 'Original workbook contains 10 worksheets and one dashboard; seven distinct sheets are placed on it.', 'Public review tooling verifies group counts, means, field bindings and selected source logic.'],
     credit:'Collaborative coursework by Denny Hoang and Vansh Verma; a per-person task split is not documented. Self-reported historical convenience sample. Native Tableau open/refresh and interaction execution remain unverified.',
-    links:[{label:'Workbook & methods',href:github+'ai-workforce-tableau-dashboard'},{label:'Original visual gallery',href:github+'ai-workforce-tableau-dashboard/blob/main/FIGURE_GALLERY.md'}]
+    links:[{label:'Original Tableau dashboard',href:github+'ai-workforce-tableau-dashboard/blob/main/FIGURE_GALLERY.md#final-report-dashboard'},{label:'Workbook & methods',href:github+'ai-workforce-tableau-dashboard'}]
   },
   powerbi:{
-    title:'Anthony Edwards Performance',label:'07 / BUSINESS INTELLIGENCE',repo:'anthony-edwards-power-bi-dashboard',
+    title:'Anthony Edwards Performance Dashboard | Power BI & Sports Reporting',label:'BUSINESS INTELLIGENCE',repo:'anthony-edwards-power-bi-dashboard',
     description:'A collaborative Power BI case study exploring Anthony Edwards’ development across five seasons, scoring in wins and losses and a selected peer group.',
     images:[{src:'assets/projects/basketball.svg',alt:'Anthony Edwards season production and win/loss mean comparison',caption:'November 2026 Python review export from checked aggregates, not a new Power BI export. Season groups are distinct from calendar years.'}],
     details:['381 eligible recorded games: 204 wins and 177 losses.', 'Five NBA seasons, 2020–21 through 2024–25; selected peer comparison uses 2024–25.', 'Original two-page report and nine saved analytical figures remain available in the case study.'],
     credit:'Collaborative coursework by Vansh Verma and Denny Hoang. Descriptive associations do not establish causes of winning. Native Power BI refresh, exact M/DAX and model relationships remain unverified. Statistical sources are credited in the repository.',
-    links:[{label:'Report & checked results',href:github+'anthony-edwards-power-bi-dashboard'},{label:'Original nine figures',href:github+'anthony-edwards-power-bi-dashboard#complete-figure-gallery'}]
+    links:[{label:'Original Power BI visual',href:github+'anthony-edwards-power-bi-dashboard#original-power-bi-visual'},{label:'All nine original figures',href:github+'anthony-edwards-power-bi-dashboard#complete-figure-gallery'}]
   },
   nba:{
-    title:'NBA Bench Impact Analysis',label:'08 / EXPLORATORY ANALYSIS',repo:'nba-bench-impact-analysis',
+    title:'NBA Bench Impact Analysis | Python, Pandas & Reproducible Cohorts',label:'EXPLORATORY ANALYSIS',repo:'nba-bench-impact-analysis',
     description:'A reproducible Python/Pandas analysis of 2023–24 regular-season players who appeared off the bench more often than they started. Explicit thresholds keep the leaderboards inspectable.',
     images:[{src:'assets/projects/nba.png',alt:'Qualified bench-majority three-point shooting leaders',caption:'2023–24 regular season; at least 40 games, more bench appearances than starts and at least 4.0 three-point attempts per game. Source: Basketball-Reference / Sports Reference LLC.'}],
     details:['572 unique player-season records after selecting one aggregate row per traded player.', '185-player cohort with at least 40 games and G − GS > GS.', 'Four charts cover three-point shooting, two-point shooting, free throws and rebounding.'],
@@ -67,7 +83,7 @@ const projects = {
     links:[{label:'Code & methods',href:github+'nba-bench-impact-analysis'},{label:'All four charts',href:github+'nba-bench-impact-analysis#more-result-charts'}]
   },
   wardrobe:{
-    title:'Fragrance Wardrobe Intelligence',label:'09 / LOCAL SOFTWARE',repo:'fragrance-wardrobe-intelligence',
+    title:'Fragrance Wardrobe Intelligence | Local Python CLI & Explainable Analytics',label:'LOCAL SOFTWARE',repo:'fragrance-wardrobe-intelligence',
     description:'A local-first Python CLI that turns a fragrance collection and wear log into rotation, coverage and cost-per-logged-wear summaries, plus explainable profile matching.',
     images:[{src:'assets/projects/wardrobe.png',alt:'Synthetic wardrobe demo summary',caption:'Public fictional demo: eight collection items and 18 wear events. No measured consumer outcome or trained recommendation model is claimed.'}],
     details:['Standard-library implementation with input validation and stable, testable JSON output.', 'Unworn items remain visible without treating an undefined cost-per-wear ratio as zero.', 'Heuristic similarity explains its component scores and reasons.'],
@@ -108,12 +124,20 @@ function imageMarkup(image) {
 function showProject(key, opener) {
   const project = projects[key];
   if (!project || !dialog || typeof dialog.showModal !== 'function') return false;
+  if (!activeProject) previousOverflow = document.body.style.overflow;
   activeProject = project; activeImage = 0; returnFocus = opener;
+  const visual = project.images.length
+    ? '<div id="case-image-holder">' + imageMarkup(project.images[0]) + '</div>'
+    : `<ul class="project-evidence">${project.evidence.map(item => `
+        <li>
+          <a href="${item.href}">${item.label} <span aria-hidden="true">↗</span></a>
+          <p>${item.caption}</p>
+        </li>`).join('')}
+      </ul>`;
   dialogContent.innerHTML = '<header class="dialog-header"><p class="eyebrow">' + project.label + '</p><h2 id="dialog-title">' + project.title + '</h2></header>' +
-    '<div class="dialog-layout"><div class="dialog-visual"><div id="case-image-holder">' + imageMarkup(project.images[0]) + '</div>' +
+    '<div class="dialog-layout"><div class="dialog-visual">' + visual +
     (project.images.length > 1 ? '<div class="image-controls"><button type="button" data-image-step="-1" aria-label="Previous project image">←</button><span id="image-position" aria-live="polite">1 / ' + project.images.length + '</span><button type="button" data-image-step="1" aria-label="Next project image">→</button></div>' : '') +
     '</div><div class="dialog-details"><p>' + project.description + '</p><h3>WHAT THE WORK DEMONSTRATES</h3><ul>' + project.details.map(detail => '<li>' + detail + '</li>').join('') + '</ul><h3>CONTRIBUTION & CONTEXT</h3><p class="dialog-credit">' + project.credit + '</p><div class="dialog-links">' + project.links.map(link => '<a href="' + link.href + '">' + link.label + ' ↗</a>').join('') + '</div></div></div>';
-  previousOverflow = document.body.style.overflow;
   document.body.style.overflow = 'hidden';
   dialog.showModal();
   dialog.scrollTop = 0;
@@ -136,6 +160,7 @@ if (dialog) {
     if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
   });
   dialog.addEventListener('close', () => {
+    if (dialog.open) return;
     document.body.style.overflow = previousOverflow;
     if (returnFocus && returnFocus.isConnected && !returnFocus.closest('[hidden]')) returnFocus.focus({preventScroll:true});
     activeProject = null;
