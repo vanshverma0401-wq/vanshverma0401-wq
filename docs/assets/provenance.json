@@ -1,7 +1,7 @@
 {
   "recorded_date_local": "2026-11-11",
   "timezone": "America/Chicago",
-  "scope": "Already-public project visual assets copied byte-for-byte for the author's personal portfolio; no image edits or raw source records.",
+  "scope": "Project visuals copied byte-for-byte from existing public figures or the author's original overview diagrams. Published assets contain no raw source records.",
   "assets": [
     {
       "path": "assets/projects/fragrance.png",
@@ -149,6 +149,87 @@
       ],
       "attribution": "Collaborative academic project by the named team. Synthetic Healthcare Dataset by Prasad Patil, listed as CC0; see source repository DATA_AND_USAGE.md.",
       "transformation": "none; byte-identical copy of the existing public asset"
+    },
+    {
+      "path": "assets/projects/movielens-prep-overview.png",
+      "source_public_url": null,
+      "source": "Author-provided original overview PNG",
+      "public_reference_url": "https://grouplens.org/datasets/movielens/",
+      "sha256": "a4944f92b24506e0f79ad561f493b640c93309748eea4d3381401d4e4e3f9f64",
+      "bytes": 153456,
+      "caption": "Original Tableau Prep flow and aggregate counts from the later MovieLens join reconstruction.",
+      "context": "Individual Fall 2025 coursework. The separately reconstructed inner join matched 476,176 of 489,480 rating rows and produced 592 movie groups. The exact MovieLens release remains unidentified.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Workflow overview by Vansh Verma. Dataset publisher: GroupLens MovieLens.",
+      "transformation": "none; byte-identical copy of the author's original overview PNG"
+    },
+    {
+      "path": "assets/projects/aws-cloudformation-overview.png",
+      "source_public_url": null,
+      "source": "Author-provided original overview PNG",
+      "public_reference_url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-ec2-natgateway.html",
+      "sha256": "6c8dda6a5aad5f4e51997014b2a71dfd3633a45b942fe442b9b1a37f47ccdefe",
+      "bytes": 164629,
+      "caption": "Two AWS CloudFormation stacks and a separate S3 and Lambda design.",
+      "context": "Individual Spring 2025 coursework. The overview shows authored infrastructure design and planned checks. AWS deployment and Lambda runtime execution remain unverified.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Infrastructure overview by Vansh Verma. The AWS link is a technical reference.",
+      "transformation": "none; byte-identical copy of the author's original overview PNG"
+    },
+    {
+      "path": "assets/projects/snowflake-staged-file-ingestion-overview.png",
+      "source_public_url": null,
+      "source": "Author-provided original overview PNG",
+      "public_reference_url": "https://docs.snowflake.com/en/sql-reference/sql/copy-into-table",
+      "sha256": "eb437293bd015bf1c52ef11f5ad7f01fa68d57a5cfe1137537c0d95183c5dcb9",
+      "bytes": 156276,
+      "caption": "Five-stage Snowflake coursework workflow from staged-file inspection through SQL verification.",
+      "context": "Individual SEIS 732 Homework 5. The diagram summarizes the load and verification steps without original course files or account identifiers.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Staged-file workflow overview by Vansh Verma. The Snowflake link is a syntax reference.",
+      "transformation": "none; byte-identical copy of the author's original overview PNG"
+    },
+    {
+      "path": "assets/projects/nba-bench-player-analysis-overview.png",
+      "source_public_url": null,
+      "source": "Author-provided original overview PNG",
+      "public_reference_url": "https://github.com/vanshverma0401-wq/nba-bench-impact-analysis#verified-findings",
+      "sha256": "56da88ebe504402fc607c42874be7e99b13bb5cad10a52a7884d29eea71984bc",
+      "bytes": 176973,
+      "caption": "A 185-player bench-majority cohort and four verified 2023–24 regular-season leaderboards.",
+      "context": "Individual analysis reduced 572 deduplicated player records to the defined cohort. Shooting leaderboards use their documented attempt thresholds.",
+      "contribution_label": "Individual",
+      "credited_authors": [
+        "Vansh Verma"
+      ],
+      "attribution": "Analysis and overview by Vansh Verma. Statistical data: Basketball-Reference / Sports Reference LLC.",
+      "transformation": "none; byte-identical copy of the author's original overview PNG"
+    },
+    {
+      "path": "assets/projects/anthony-edwards-power-bi-overview.png",
+      "source_public_url": null,
+      "source": "Author-provided original overview PNG",
+      "public_reference_url": "https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard",
+      "sha256": "69fb3bcdacc661e293417a36bed8ac304b686e53590ff80c58935316ae9abc4a",
+      "bytes": 200724,
+      "caption": "Original Power BI report workflow and later Python check of 381 games with recorded points.",
+      "context": "Collaborative coursework across five NBA seasons. The later Python comparison of wins and losses is a separate descriptive check. A native Power BI refresh remains unverified.",
+      "contribution_label": "Collaborative",
+      "credited_authors": [
+        "Vansh Verma",
+        "Denny Hoang"
+      ],
+      "attribution": "Overview by Vansh Verma. Original coursework by Vansh Verma and Denny Hoang. Data sources include Basketball-Reference and NBA.com.",
+      "transformation": "none; byte-identical copy of the author's original overview PNG"
     }
   ]
 }

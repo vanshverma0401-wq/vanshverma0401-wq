@@ -69,15 +69,21 @@ const projects = {
   powerbi:{
     title:'Anthony Edwards Performance Dashboard | Power BI & Sports Reporting',label:'BUSINESS INTELLIGENCE',repo:'anthony-edwards-power-bi-dashboard',
     description:'A collaborative Power BI case study exploring Anthony Edwards’ development across five seasons, scoring in wins and losses and a selected peer group.',
-    images:[{src:'assets/projects/basketball.svg',alt:'Anthony Edwards season production and win/loss mean comparison',caption:'November 2026 Python review export from checked aggregates, not a new Power BI export. Season groups are distinct from calendar years.'}],
+    images:[
+      {src:'assets/projects/anthony-edwards-power-bi-overview.png',alt:'Anthony Edwards Power BI report workflow, season scoring, and a later Python comparison of scoring in wins and losses.',caption:'The coursework overview shows the original Power BI workflow and the later Python check of 381 games with recorded points.'},
+      {src:'assets/projects/basketball.svg',alt:'Anthony Edwards season production and win/loss mean comparison',caption:'Later Python check of saved aggregates, November 2026. Season groups are distinct from calendar years.'}
+    ],
     details:['381 eligible recorded games: 204 wins and 177 losses.', 'Five NBA seasons, 2020–21 through 2024–25; selected peer comparison uses 2024–25.', 'Original two-page report and nine saved analytical figures remain available in the case study.'],
     credit:'Collaborative coursework by Vansh Verma and Denny Hoang. Descriptive associations do not establish causes of winning. Native Power BI refresh, exact M/DAX and model relationships remain unverified. Statistical sources are credited in the repository.',
     links:[{label:'Original Power BI visual',href:github+'anthony-edwards-power-bi-dashboard#original-power-bi-visual'},{label:'All nine original figures',href:github+'anthony-edwards-power-bi-dashboard#complete-figure-gallery'}]
   },
   nba:{
-    title:'NBA Bench Impact Analysis | Python, Pandas & Reproducible Cohorts',label:'EXPLORATORY ANALYSIS',repo:'nba-bench-impact-analysis',
+    title:'NBA Bench Player Analysis',label:'EXPLORATORY ANALYSIS',repo:'nba-bench-impact-analysis',
     description:'A reproducible Python/Pandas analysis of 2023–24 regular-season players who appeared off the bench more often than they started. Explicit thresholds keep the leaderboards inspectable.',
-    images:[{src:'assets/projects/nba.png',alt:'Qualified bench-majority three-point shooting leaders',caption:'2023–24 regular season; at least 40 games, more bench appearances than starts and at least 4.0 three-point attempts per game. Source: Basketball-Reference / Sports Reference LLC.'}],
+    images:[
+      {src:'assets/projects/nba-bench-player-analysis-overview.png',alt:'2023–24 NBA bench analysis overview showing 572 player records, a 185-player cohort, and four leaderboard results.',caption:'Overview of the bench-majority cohort and leaders in three-point shooting, two-point shooting, free throws and rebounding.'},
+      {src:'assets/projects/nba.png',alt:'Qualified bench-majority three-point shooting leaders',caption:'2023–24 regular season; at least 40 games, more bench appearances than starts and at least 4.0 three-point attempts per game. Source: Basketball-Reference / Sports Reference LLC.'}
+    ],
     details:['572 unique player-season records after selecting one aggregate row per traded player.', '185-player cohort with at least 40 games and G − GS > GS.', 'Four charts cover three-point shooting, two-point shooting, free throws and rebounding.'],
     credit:'Individual analysis, code, tests and charts by Vansh Verma. Statistical data: Basketball-Reference / Sports Reference LLC. Findings describe the documented cohort, not every player or current performance.',
     links:[{label:'Code & methods',href:github+'nba-bench-impact-analysis'},{label:'All four charts',href:github+'nba-bench-impact-analysis#more-result-charts'}]

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101416">
+  <meta name="description" content="I wrote CloudFormation templates for a VPC and an application stack, then traced outbound traffic from a private EC2 instance.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AWS CloudFormation Infrastructure Labs · Vansh Verma">
+  <meta property="og:description" content="I wrote CloudFormation templates for a VPC and an application stack, then traced outbound traffic from a private EC2 instance.">
+  <meta property="og:url" content="https://vanshverma0401-wq.github.io/vanshverma0401-wq/projects/aws-cloudformation-labs/">
+  <meta property="og:image" content="https://vanshverma0401-wq.github.io/vanshverma0401-wq/assets/projects/aws-cloudformation-overview.png">
+  <meta property="og:image:alt" content="CloudFormation network and application stacks, private EC2 outbound routing, and a separate S3 event and Lambda resize design.">
+  <title>AWS CloudFormation Infrastructure Labs · Vansh Verma</title>
+  <link rel="canonical" href="https://vanshverma0401-wq.github.io/vanshverma0401-wq/projects/aws-cloudformation-labs/">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../styles.css?v=36d76621f976">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="identity" href="../../" aria-label="Vansh Verma, home"><span class="monogram" aria-hidden="true">vv<span>↗</span></span><span>Vansh Verma<span class="identity-sub">DATA · CODE · PRODUCT</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="../../#work">Work</a>
+      <a href="../../#toolkit">Toolkit</a>
+      <a href="../../#about">About</a>
+    </nav>
+    <a class="nav-contact" href="../../#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main" class="project-page section-shell">
+    <article aria-labelledby="project-title">
+      <a class="text-link" href="../../#work"><span aria-hidden="true">←</span> All work</a>
+      <header>
+        <p class="eyebrow">INDIVIDUAL COURSEWORK · Spring 2025 · SEIS 615</p>
+        <h1 id="project-title">AWS CloudFormation Infrastructure Labs</h1>
+        <p class="project-page-summary">I wrote CloudFormation templates for a VPC and an application stack, then traced outbound traffic from a private EC2 instance.</p>
+      </header>
+      <figure class="project-page-figure">
+        <a href="../../assets/projects/aws-cloudformation-overview.png" aria-label="Open the full-size AWS CloudFormation Infrastructure Labs diagram">
+          <img src="../../assets/projects/aws-cloudformation-overview.png" width="1500" height="1000" alt="CloudFormation network and application stacks, private EC2 outbound routing, and a separate S3 event and Lambda resize design.">
+        </a>
+        <figcaption class="dialog-caption">The diagram traces the two infrastructure stacks and the separate serverless lab design.</figcaption>
+      </figure>
+      <div class="project-page-copy">
+        <section aria-labelledby="section-1">
+          <h2 id="section-1">Network and application stacks</h2>
+          <p>I authored a YAML network template for a VPC, public and private subnets, route tables, a NAT gateway, and an internet gateway. A separate YAML application template defined a public bastion and a private EC2 instance. The private instance’s outbound internet path runs through the NAT gateway and then the internet gateway.</p>
+        </section>
+        <section aria-labelledby="section-2">
+          <h2 id="section-2">Separate serverless lab</h2>
+          <p>I documented an S3-triggered Python Lambda image-resize workflow and a CloudWatch test plan. The case study covers the authored designs and planned checks. AWS deployment and Lambda runtime execution remain unverified.</p>
+        </section>
+        <section aria-labelledby="reference">
+          <h2 id="reference">Reference</h2>
+          <a class="original-visual-link" href="https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-ec2-natgateway.html">AWS CloudFormation NAT gateway reference <span aria-hidden="true">↗</span></a>
+        </section>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
