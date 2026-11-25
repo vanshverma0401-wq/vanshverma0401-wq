@@ -222,7 +222,7 @@
       "sha256": "69fb3bcdacc661e293417a36bed8ac304b686e53590ff80c58935316ae9abc4a",
       "bytes": 200724,
       "caption": "Original Power BI report workflow and later Python check of 381 games with recorded points.",
-      "context": "Collaborative coursework across five NBA seasons. The later Python comparison of wins and losses is a separate descriptive check. A native Power BI refresh remains unverified.",
+      "context": "Collaborative coursework across five NBA seasons. The later Python comparison of wins and losses is a separate descriptive check.",
       "contribution_label": "Collaborative",
       "credited_authors": [
         "Vansh Verma",

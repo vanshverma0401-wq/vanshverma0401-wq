@@ -5,10 +5,10 @@
 
 <p align="center"><a href="#selected-work"><strong>01 &nbsp; Work ↓</strong></a> &nbsp; · &nbsp; <a href="#the-toolkit"><strong>02 &nbsp; Toolkit ↓</strong></a> &nbsp; · &nbsp; <a href="#about"><strong>03 &nbsp; About ↓</strong></a> &nbsp; · &nbsp; <a href="https://vanshverma0401-wq.github.io/vanshverma0401-wq/"><strong>Interactive portfolio ↗</strong></a></p>
 
-I’m Vansh — an **M.S. Data Science candidate** turning messy inputs into clear analysis, dependable data workflows and thoughtful software. **Python and SQL at the center; curiosity across the rest of the stack.**
+I’m Vansh, an **M.S. Data Science student** looking for **data engineering and analytics engineering roles from June 2027**. I build Python and SQL pipelines, Snowflake/dbt models and PySpark data lakes, and each repo states what it proves and what it doesn’t.
 
 **University of St. Thomas · 4.0/4.0 GPA · Expected May 2027**<br>
-Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportunities.
+Minneapolis, MN · Open to relocation anywhere in the U.S.
 
 ## Selected work
 
@@ -29,7 +29,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
 <sub>VERIFIED WORKFLOW / SAVED EVIDENCE</sub>
 <p><a href="https://raw.githubusercontent.com/vanshverma0401-wq/zomato-ai-data-pipeline/7abe336f61a04636a90d9244e25601672f458595/portfolio/screenshots/16-project-overview.jpg"><img src="https://raw.githubusercontent.com/vanshverma0401-wq/zomato-ai-data-pipeline/7abe336f61a04636a90d9244e25601672f458595/portfolio/screenshots/16-project-overview.jpg" alt="Saved Zomato project overview: 10 million generated orders, 22,998,179 order items, 17 dbt models, 28 passing data tests and three bounded AI features" width="500"></a></p>
 <p><strong>Three AI features, with review gates.</strong><br>Structured review enrichment, hosted-embedding RAG with checked source IDs, and SQL generation → inspection → execution.</p>
-<p><sub>Guided implementation from <a href="https://www.youtube.com/watch?v=kYwaNMQ3XT8">Darshil Parmar’s tutorial</a>, developed with AI coding assistance. Orders, items and review texts are tutorial-generated. One manual replay verified; services shut down and cloud data copies removed afterward. Code and saved evidence remain available.</sub></p>
+<p><sub>Built from <a href="https://www.youtube.com/watch?v=kYwaNMQ3XT8">Darshil Parmar’s tutorial</a> and extended, with AI coding assistance. Order and review data are tutorial-generated. Cloud resources were shut down after the final run; code, tests and screenshots remain.</sub></p>
 <a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline/blob/main/portfolio/README.md">Example gallery</a> · <a href="https://github.com/vanshverma0401-wq/zomato-ai-data-pipeline/blob/main/docs/VERIFICATION.md">Verification and limits</a>
 </td>
 </tr>
@@ -50,7 +50,7 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
 <sub>VISUAL RESULT / SEPARATE PARFUMO BRANCH</sub>
 <p><a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/blob/main/assets/brand_rating_support.png"><img src="assets/profile/fragrance-brand-ratings.png" alt="Weighted brand ratings with rating counts from the separate 30,046-record Parfumo analysis; not Amazon-review results" width="500"></a></p>
 <p><strong>What makes a fragrance stand out?</strong><br>Brand ratings, with the support behind each result.</p>
-<p><sub>Individual academic project. Chart: separate 30,046-record Parfumo branch. Pipeline scale reflects verified historical execution; the public reconstruction documents replay limits.</sub></p>
+<p><sub>Individual graduate project (SEIS 745) on AWS EMR. Metadata for 57,428 products. Chart is from a separate 30,046-record Parfumo dataset.</sub></p>
 <a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/tree/main/data/derived">Derived results</a> · <a href="https://github.com/vanshverma0401-wq/fragrance-data-lake-pyspark/tree/main/examples/synthetic">Recovery demo</a>
 </td>
 </tr>
@@ -61,85 +61,36 @@ Minneapolis, MN · Open to U.S. relocation · Seeking 2027 early-career opportun
     <td width="50%" valign="top">
       <sub>03 / DATABASE DESIGN</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model">NBA Oracle Relational Model ↗</a></h3>
-      <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model"><img src="assets/profile/oracle-schema.svg" alt="Conceptual five-table fictional Oracle demonstration, separate from original final coursework" width="420"></a>
+      <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model"><img src="assets/profile/oracle-schema.svg" alt="Conceptual diagram of the five-table fictional-data Oracle demo" width="420"></a>
       <p>Model rosters, games and player statistics, then answer scoring and team-comparison questions.</p>
-      <p><strong>Oracle SQL · Constraints · Joins · Views</strong></p>
-      <p><sub>Individual coursework. Original final DDL and fictional demonstration are separate. Diagram is conceptual; real Oracle execution remains unverified.</sub></p>
-      <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/coursework/final_schema.sql">Original DDL</a> · <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/analysis_queries.sql">Queries</a> · <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/tree/main/verification">Assertions</a>
+      <p><strong>Oracle SQL · PL/SQL · Constraints · Joins · Views</strong></p>
+      <p><sub>Individual project (SEIS 630). Original seven-table design with an audit table, foreign keys, views and indexes; this repo adds a five-table demo with fictional data.</sub></p>
+      <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/coursework/final_schema.sql">Original DDL</a> · <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/blob/main/analysis_queries.sql">Queries</a> · <a href="https://github.com/vanshverma0401-wq/nba-oracle-relational-model/tree/main/verification">Checks</a>
     </td>
     <td width="50%" valign="top">
-      <sub>04 / PRODUCT ENGINEERING</sub>
-      <h3><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study">SetFlow ↗</a></h3>
-      <p align="center"><a href="https://github.com/vanshverma0401-wq/setflow-product-case-study"><img src="assets/profile/setflow-workout-history.png" alt="Dated synthetic iOS Simulator screenshot of private SetFlow workout history" width="145"></a></p>
-      <p>A native strength-training app connecting planning, set logging, recovery and retained workout history.</p>
-      <p><strong>SwiftUI · SwiftData · State · Local persistence</strong></p>
-      <p><sub>I direct product decisions and review; most app code was generated with substantial AI assistance. Private, in development, pre-beta. Screenshot: October 2026 synthetic Simulator evidence. No release or beta access.</sub></p>
-      <a href="https://setflow-review-nov03.vanshverma0401.chatgpt.site/watch.html#momentum">94-second walkthrough</a> · <a href="https://github.com/vanshverma0401-wq/setflow-product-case-study/blob/main/EVIDENCE_AND_LIMITATIONS.md">Evidence</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>05 / TIME-SERIES ANALYTICS</sub>
+      <sub>04 / TIME-SERIES ANALYTICS</sub>
       <h3><a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis">Zillow Housing Analysis ↗</a></h3>
-      <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis"><img src="assets/profile/zillow-home-value-trends.png" alt="Original collaborative Zillow home-value trends across selected metropolitan groups" width="420"></a>
-      <p>Six business questions, 18 saved charts and a separate 50-metro benchmark with exact calendar targets and a purged time split.</p>
-      <p><strong>Pandas · Keyed joins · scikit-learn · XGBoost</strong></p>
-      <p><sub>Collaborative with Jake Holley and Miranda Dahl. New Ridge benchmark is separate from the original neighborhood model and ROI scenarios. Revised historical data, not prospective or investment proof. Data Provided by Zillow Group.</sub></p>
-      <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/FINAL_PROJECT.md">Final project</a> · <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/REPLAY_EXTENSION.md">New benchmark</a>
+      <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis"><img src="assets/profile/zillow-home-value-trends.png" alt="Zillow home-value trends across selected metropolitan groups" width="420"></a>
+      <p>Six business questions, 18 charts and a 50-metro forecasting benchmark with a chronological train/test split.</p>
+      <p><strong>Pandas · GeoPandas · scikit-learn · XGBoost</strong></p>
+      <p><sub>Team project with Jake Holley and Miranda Dahl. In the benchmark, a Ridge model cut 24-month forecast error (MAE) from about $24.8k to $13.4k versus a no-change baseline, on historical data. Data provided by Zillow Group.</sub></p>
+      <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/FINAL_PROJECT.md">Final project</a> · <a href="https://github.com/vanshverma0401-wq/zillow-housing-market-analysis/blob/main/REPLAY_EXTENSION.md">Benchmark</a>
     </td>
-    <td width="50%" valign="top">
-      <sub>06 / APPLIED MACHINE LEARNING</sub>
-      <h3><a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis">Healthcare ML ↗</a></h3>
-      <a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis"><img src="assets/profile/healthcare-evaluation.svg" alt="New synthetic billing benchmark: fixed logistic test ROC-AUC 0.485 versus prior baseline 0.500; weak signal disclosed" width="420"></a>
-      <p>Preprocessing, feature engineering and model comparison, with a new group-disjoint billing evaluation that reports weak signal honestly.</p>
-      <p><strong>scikit-learn · Pipelines · Baselines · Evaluation</strong></p>
-      <p><sub>Six-person synthetic-data coursework. I contributed cleaning, features, preprocessing, comparison, evaluation, documentation and presentation. New benchmark: 10,000 synthetic rows; name groups are identity proxies. No clinical validation.</sub></p>
-      <a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/FULL_BILLING_REPORT.md">Team analysis</a> · <a href="https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis/blob/main/REPLAY_EXTENSION.md">Evaluation extension</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>07 / BUSINESS INTELLIGENCE</sub>
-      <h3><a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard">Data &amp; AI Workforce ↗</a></h3>
-      <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard"><img src="assets/profile/salary-review.svg" alt="November 2026 Python review of 637 historical salary records; not a native Tableau export" width="420"></a>
-      <p>Turn a 637-record historical salary snapshot into calculated fields, KPIs and comparative dashboard views.</p>
-      <p><strong>Tableau · Tableau Prep · Calculated fields · KPIs</strong></p>
-      <p><sub>Collaborative with Denny Hoang; per-person task split undocumented. Data: 2020–2022. Visual: November 2026 Python review export. Original Tableau gallery is linked below; native refresh remains unverified.</sub></p>
-      <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/blob/main/FIGURE_GALLERY.md">Original gallery</a> · <a href="https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard/tree/main/technical">Technical evidence</a>
-    </td>
-    <td width="50%" valign="top">
-      <sub>08 / SPORTS ANALYTICS</sub>
-      <h3><a href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis">NBA Bench Impact ↗</a></h3>
-      <a href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis"><img src="assets/profile/nba-three-point-leaders.png" alt="Qualified three-point leaders in the defined 2023–24 NBA bench-majority cohort" width="420"></a>
-      <p>572 unique player records, a transparent 185-player cohort and four result charts with explicit qualification thresholds.</p>
-      <p><strong>Pandas · Deduplication · Cohort design · Matplotlib</strong></p>
-      <p><sub>Individual analysis, 2023–24 regular season. Results depend on documented games and attempt thresholds. Source: Basketball-Reference / Sports Reference LLC.</sub></p>
-      <a href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis">Charts and code</a> · <a href="https://github.com/vanshverma0401-wq/nba-bench-impact-analysis#more-result-charts">More results</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>09 / REPORTING &amp; COMPARISON</sub>
-      <h3><a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard">Anthony Edwards Dashboard ↗</a></h3>
-      <a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard"><img src="assets/profile/anthony-edwards-review.svg" alt="November 2026 Python review of 381 recorded games across five NBA seasons; not a Power BI export" width="420"></a>
-      <p>Five seasons, 381 recorded games and a selected peer group, with season trends and separate win/loss averages.</p>
-      <p><strong>Power BI · Power Query · Filtering · Data validation</strong></p>
-      <p><sub>Collaborative with Denny Hoang. Visual: November 2026 Python review export. Original nine report figures are available; native refresh and exact M/DAX/model details remain unverified.</sub></p>
-      <a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard#complete-figure-gallery">Original figures</a> · <a href="https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard/tree/main/technical">Checked aggregates</a>
-    </td>
-    <td width="50%" valign="top">
-<sub>10 / LOCAL SOFTWARE</sub>
-<h3><a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence">Fragrance Wardrobe Intelligence ↗</a></h3>
-<a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence"><img src="assets/profile/wardrobe-summary.png" alt="Local wardrobe demo using eight fictional collection items and 18 wear events" width="420"></a>
-<p>A collection, made more useful. A local Python CLI for rotation, coverage, cost per logged wear and explainable heuristic matching.</p>
-<p><strong>Python · Data contracts · Validation · Deterministic JSON</strong></p>
-<p><sub>Individual local MVP. Eight fictional items and 18 wear events; not a trained recommender or measured consumer outcome.</sub></p>
-<a href="https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence#run-it-locally">Run the local demo</a>
-</td>
   </tr>
 </table>
 
-Every project links to its source, methods, attribution and verification limits. Click a visual to inspect the project or its full-size result.
+### More work
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Healthcare ML](https://github.com/vanshverma0401-wq/healthcare-ml-operations-analysis) | Six-person team project on synthetic data: billing classification, feature engineering, 5-fold cross-validation, and a follow-up evaluation that reports weak signal honestly. All members worked across every stage | scikit-learn, XGBoost, Pandas |
+| [NBA Bench Impact](https://github.com/vanshverma0401-wq/nba-bench-impact-analysis) | Individual analysis of 572 player-season records (2023–24) and a 185-player bench cohort, with tests | Pandas, Matplotlib, pytest |
+| [Data & AI Workforce](https://github.com/vanshverma0401-wq/ai-workforce-tableau-dashboard) | Salary dashboard from 637 records (2020–22): data prep, calculated fields, KPIs. Team project with Denny Hoang, built together | Tableau, Tableau Prep |
+| [Anthony Edwards Dashboard](https://github.com/vanshverma0401-wq/anthony-edwards-power-bi-dashboard) | Five seasons and 381 games with season trends and win/loss splits. Team project with Denny Hoang, built together | Power BI, Power Query, DAX |
+| [SetFlow](https://github.com/vanshverma0401-wq/setflow-product-case-study) | Private iOS strength-training app in development. I direct the product, rules, review and testing; AI agents wrote most of the code. [94-second walkthrough](https://setflow-review-nov03.vanshverma0401.chatgpt.site/watch.html#momentum) | SwiftUI, SwiftData |
+| [Fragrance Wardrobe Intelligence](https://github.com/vanshverma0401-wq/fragrance-wardrobe-intelligence) | Individual Python CLI for rotation, coverage and cost per wear, on a fictional demo collection, with 22 tests | Python, unittest |
+
+Every project links to its source, methods and attribution. Click a visual to open the project.
 
 ## The toolkit
 
@@ -175,11 +126,11 @@ Every project links to its source, methods, attribution and verification limits.
 
 <img src="assets/profile/about-title.svg" alt="Curious by default. Practical by choice." width="100%">
 
-I enjoy the full path from a messy dataset to an explanation someone can act on. Building **SetFlow** has pushed me to think carefully about product decisions, session state and human review of AI-assisted implementation.
+I enjoy the full path from a messy dataset to a table or chart someone can act on: ingest it, clean it, model it, test it.
 
-At **Stibo Systems**, I worked in client technical support and issue investigation. My **Cognizant** background includes Java/Spring/Angular training, assessments and team demos. The Zomato project adds tutorial-derived Snowflake/dbt implementation, a verified Airflow replay and three bounded hosted-AI demonstrations.
+Before my master’s I spent Dec 2021 to Feb 2023 at **Cognizant**, first as a trainee and then as a Programmer Analyst, working in a team on Angular and Java/Spring applications with REST APIs and SQL, and debugging across the front end, API and database.
 
-**Good work starts with a conversation.** Exploring 2027 early-career opportunities in data engineering, analytics, BI and software products.
+**Good work starts with a conversation.** I’m looking for data engineering and analytics engineering roles starting June 2027, and I’m also open to analytics and BI.
 
 <p><a href="https://www.linkedin.com/in/vansh-verma-403377333/"><strong>Connect on LinkedIn ↗</strong></a> &nbsp; · &nbsp; <a href="https://vanshverma0401-wq.github.io/vanshverma0401-wq/">Interactive portfolio ↗</a> &nbsp; · &nbsp; <a href="https://github.com/vanshverma0401-wq?tab=repositories">Browse the repositories ↗</a></p>
 

@@ -31,7 +31,7 @@ const projects = {
     description:'Relational design and analytical SQL for basketball rosters, games and performance. Original final coursework DDL sits alongside a deliberately smaller demonstration with fictional records.',
     images:[{src:'assets/generated/oracle-schema.svg',alt:'Conceptual five-table fictional demonstration schema',caption:'New conceptual diagram of the five-table demonstration schema; it is separate from the original coursework DDL.'}],
     details:['Original coursework: seven business tables plus an audit log.', 'Fictional demonstration: five tables, primary/foreign keys, integrity constraints, reusable views and ranking queries.', 'A verification runner checks expected totals and negative constraint cases; static checks are distinct from Oracle execution.'],
-    credit:'Individual coursework by Vansh Verma. The original DDL is preserved. Real Oracle runtime execution remains unverified.',
+    credit:'Individual coursework by Vansh Verma (SEIS 630). The original seven-table DDL is preserved; the five-table demo uses fictional data.',
     links:[{label:'Schema & SQL',href:github+'nba-oracle-relational-model'},{label:'Verification scope',href:github+'nba-oracle-relational-model/tree/main/verification'}]
   },
   setflow:{
@@ -63,7 +63,7 @@ const projects = {
     description:'A Tableau and Tableau Prep case study exploring a historical salary snapshot through calculated fields, categorical preparation and KPI reporting.',
     images:[{src:'assets/projects/salary.svg',alt:'Historical salary review with explicit sample and group counts',caption:'November 2026 Python/CSV review export, not a new Tableau export. Raw repeated rows are retained; group means are descriptive.'}],
     details:['637 salary records from 2020–2022, covering broader data roles as well as AI/ML.', 'Original workbook contains 10 worksheets and one dashboard; seven distinct sheets are placed on it.', 'Public review tooling verifies group counts, means, field bindings and selected source logic.'],
-    credit:'Collaborative coursework by Denny Hoang and Vansh Verma; a per-person task split is not documented. Self-reported historical convenience sample. Native Tableau open/refresh and interaction execution remain unverified.',
+    credit:'Team project by Denny Hoang and Vansh Verma, built together. Self-reported historical salary sample.',
     links:[{label:'Original Tableau dashboard',href:github+'ai-workforce-tableau-dashboard/blob/main/FIGURE_GALLERY.md#final-report-dashboard'},{label:'Workbook & methods',href:github+'ai-workforce-tableau-dashboard'}]
   },
   powerbi:{
@@ -74,7 +74,7 @@ const projects = {
       {src:'assets/projects/basketball.svg',alt:'Anthony Edwards season production and win/loss mean comparison',caption:'Later Python check of saved aggregates, November 2026. Season groups are distinct from calendar years.'}
     ],
     details:['381 eligible recorded games: 204 wins and 177 losses.', 'Five NBA seasons, 2020–21 through 2024–25; selected peer comparison uses 2024–25.', 'Original two-page report and nine saved analytical figures remain available in the case study.'],
-    credit:'Collaborative coursework by Vansh Verma and Denny Hoang. Descriptive associations do not establish causes of winning. Native Power BI refresh, exact M/DAX and model relationships remain unverified. Statistical sources are credited in the repository.',
+    credit:'Collaborative coursework by Vansh Verma and Denny Hoang. Built together. Descriptive associations do not establish causes of winning. Statistical sources are credited in the repository.',
     links:[{label:'Original Power BI visual',href:github+'anthony-edwards-power-bi-dashboard#original-power-bi-visual'},{label:'All nine original figures',href:github+'anthony-edwards-power-bi-dashboard#complete-figure-gallery'}]
   },
   nba:{
